@@ -13,7 +13,7 @@
       <div class="absolute -right-16 -top-16 w-64 h-64 rounded-full bg-white/10 blur-2xl"></div>
       <div class="relative max-w-3xl">
         <p class="text-xs font-semibold uppercase tracking-widest text-brand-50/90">Our mission</p>
-        <p class="mt-4 text-2xl sm:text-3xl font-bold leading-tight">High-interest credit card balances is one of the most stressful financial burdens facing households today.</p>
+        <p class="mt-4 text-2xl sm:text-3xl font-bold leading-tight">High-interest credit card balances are one of the most stressful financial burdens facing households today.</p>
         <p class="mt-4 text-brand-50/95 leading-relaxed">Our mission is to make it easier to find a clear, affordable path forward — whether that's a consolidation loan, a structured payoff program, or a conversation with a real specialist who can answer your questions in plain English.</p>
       </div>
     </div>
@@ -111,4 +111,3 @@
 <?php
 component('trust-badges');
 component('cta-banner', ['title' => 'Ready to simplify your balances?', 'sub' => 'Get matched with options in 60 seconds — no impact to your credit score.']);
-                                                                                                     
