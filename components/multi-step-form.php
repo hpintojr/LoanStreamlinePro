@@ -158,11 +158,16 @@ $src = isset($source_page) ? $source_page : '';
       <!-- ===== 10DLC / TCPA consent block ===== -->
       <div class="rounded-xl bg-slate-50 border border-slate-200 p-4 text-xs text-slate-600 space-y-3">
         <label class="flex items-start gap-3 cursor-pointer">
-          <input type="checkbox" name="sms_consent" value="1" required class="mt-1 rounded border-slate-300 text-brand-600 focus:ring-brand-500">
+          <input type="checkbox" name="sms_consent" value="1" class="mt-1 rounded border-slate-300 text-brand-600 focus:ring-brand-500">
           <span>
-            <strong class="text-slate-800">I agree to receive SMS messages.</strong>
-            <?= e(SMS_CONSENT_TEXT) ?>
-            See our <a href="/sms-terms" class="text-brand-700 underline">SMS Terms</a> and <a href="/privacy-policy" class="text-brand-700 underline">Privacy Policy</a>.
+            I agree to receive marketing and informational text messages (SMS) from Loan Streamline Pro at the phone number provided, including messages sent using an autodialer or AI/conversational technology. Consent is not a condition of any purchase or service. Msg &amp; data rates may apply. Message frequency varies. Reply HELP for help, STOP to cancel. View our <a href="/privacy-policy" class="text-brand-700 underline">Privacy Policy</a>.
+          </span>
+        </label>
+        
+        <label class="flex items-start gap-3 cursor-pointer">
+          <input type="checkbox" name="call_consent" value="1" class="mt-1 rounded border-slate-300 text-brand-600 focus:ring-brand-500">
+          <span>
+            I agree to receive marketing and informational phone calls from Loan Streamline Pro at the phone number provided, including calls placed using an automatic telephone dialing system or an artificial or prerecorded voice. Consent is not a condition of any purchase or service.
           </span>
         </label>
         <p><strong class="text-slate-800">AI Disclosure:</strong> <?= e(AI_DISCLOSURE_TEXT) ?></p>
