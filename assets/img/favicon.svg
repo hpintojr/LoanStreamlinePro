@@ -1,11 +1,55 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1d4ed8"/>
-      <stop offset="1" stop-color="#3b82f6"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#60a5fa"/>
+      <stop offset="0.6" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#1d4ed8"/>
     </linearGradient>
   </defs>
-  <rect width="64" height="64" rx="14" fill="url(#g)"/>
-  <text x="32" y="42" text-anchor="middle" font-family="Inter, system-ui, sans-serif"
-        font-size="28" font-weight="800" fill="#fff">LS</text>
+
+  <!-- Dark rounded background -->
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+
+  <!-- Motion / speed lines -->
+  <g stroke="url(#brand)" stroke-width="2.4" stroke-linecap="round">
+    <line x1="10" y1="30" x2="22" y2="30" opacity="0.95"/>
+    <line x1="8"  y1="36" x2="26" y2="36" opacity="0.85"/>
+    <line x1="14" y1="42" x2="22" y2="42" opacity="0.75"/>
+  </g>
+
+  <!-- House body with checklist (clipboard) overlay -->
+  <g fill="none" stroke="url(#brand)" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Roof -->
+    <path d="M28 22 L42 12 L56 22"/>
+    <!-- Chimney -->
+    <path d="M52 12 L52 18"/>
+    <!-- House sides (back behind clipboard) -->
+    <path d="M30 22 L30 52 L54 52 L54 22"/>
+    <!-- Window -->
+    <rect x="44" y="26" width="6" height="6"/>
+    <!-- Window mullions -->
+    <line x1="47" y1="26" x2="47" y2="32"/>
+    <line x1="44" y1="29" x2="50" y2="29"/>
+  </g>
+
+  <!-- Clipboard with checkmarks -->
+  <g>
+    <rect x="32" y="30" width="20" height="22" rx="2" fill="#ffffff" opacity="0.06"/>
+    <rect x="32" y="30" width="20" height="22" rx="2" fill="none" stroke="url(#brand)" stroke-width="2.2"/>
+    <g stroke="url(#brand)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <!-- Check 1 -->
+      <path d="M35 37 L37 39 L41 35"/>
+      <line x1="43" y1="37" x2="49" y2="37"/>
+      <!-- Check 2 -->
+      <path d="M35 43 L37 45 L41 41"/>
+      <line x1="43" y1="43" x2="49" y2="43"/>
+      <!-- Check 3 -->
+      <path d="M35 49 L37 51 L41 47"/>
+      <line x1="43" y1="49" x2="49" y2="49"/>
+    </g>
+  </g>
 </svg>

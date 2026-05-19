@@ -7,9 +7,12 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 grid gap-10 md:grid-cols-4">
 
     <div class="md:col-span-1">
-      <div class="flex items-center gap-2 mb-4">
-        <span class="inline-flex items-center justify-center w-9 h-9 rounded-xl bg-brand-gradient text-white font-bold">LS</span>
-        <span class="font-bold text-white">Loan Streamline Pro</span>
+      <div class="flex items-center gap-2.5 mb-4">
+        <img src="/assets/img/logo-mark.svg" alt="" class="w-10 h-10" width="40" height="40">
+        <div class="leading-tight">
+          <div class="font-extrabold text-white tracking-tight">Loan <span class="text-brand-400">Streamline</span> Pro</div>
+          <div class="text-[10px] font-semibold uppercase tracking-[0.18em] text-brand-300/80">Streamline today. Close tomorrow.</div>
+        </div>
       </div>
       <p class="text-sm leading-6 text-slate-400">A simpler path to comparing personal loan and consolidation loan options from trusted lending partners.</p>
     </div>

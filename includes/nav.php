@@ -2,17 +2,22 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16">
 
-      <a href="/" class="flex items-center gap-2 group" aria-label="Loan Streamline Pro — home">
-        <span class="inline-flex items-center justify-center w-9 h-9 rounded-xl bg-brand-gradient text-white font-bold shadow-soft group-hover:scale-105 transition">LS</span>
-        <span class="font-bold text-slate-900 tracking-tight hidden sm:inline">Loan Streamline Pro</span>
+      <a href="/" class="flex items-center gap-2.5 group" aria-label="Loan Streamline Pro — home">
+        <img src="/assets/img/logo-mark.svg" alt="" class="w-10 h-10 group-hover:scale-105 transition" width="40" height="40">
+        <span class="hidden sm:inline-flex flex-col leading-tight">
+          <span class="font-extrabold text-slate-900 tracking-tight text-base">
+            Loan <span class="text-brand-600">Streamline</span> Pro
+          </span>
+          <span class="text-[10px] font-semibold uppercase tracking-[0.18em] text-brand-700">Streamline today. Close tomorrow.</span>
+        </span>
       </a>
 
       <nav class="hidden lg:flex items-center gap-7 text-sm text-slate-600">
-        <a href="/how-it-works"        class="hover:text-brand-700 <?= nav_active('/how-it-works') ?>">How It Works</a>
-        <a href="/consolidation-loans"  class="hover:text-brand-700 <?= nav_active('/consolidation-loans') ?>">Consolidation Loans</a>
-        <a href="/personal-loans"      class="hover:text-brand-700 <?= nav_active('/personal-loans') ?>">Personal Loans</a>
-        <a href="/about"               class="hover:text-brand-700 <?= nav_active('/about') ?>">About</a>
-        <a href="/contact"             class="hover:text-brand-700 <?= nav_active('/contact') ?>">Contact</a>
+        <a href="/how-it-works"       class="hover:text-brand-700 <?= nav_active('/how-it-works') ?>">How It Works</a>
+        <a href="/consolidation-loans" class="hover:text-brand-700 <?= nav_active('/consolidation-loans') ?>">Consolidation Loans</a>
+        <a href="/personal-loans"     class="hover:text-brand-700 <?= nav_active('/personal-loans') ?>">Personal Loans</a>
+        <a href="/about"              class="hover:text-brand-700 <?= nav_active('/about') ?>">About</a>
+        <a href="/contact"            class="hover:text-brand-700 <?= nav_active('/contact') ?>">Contact</a>
       </nav>
 
       <div class="flex items-center gap-2">
@@ -33,7 +38,7 @@
     <div id="mobileMenu" class="hidden lg:hidden pb-4">
       <nav class="flex flex-col gap-1 text-base">
         <a href="/how-it-works"        class="px-3 py-2 rounded-lg hover:bg-brand-50">How It Works</a>
-        <a href="/consolidation-loans"  class="px-3 py-2 rounded-lg hover:bg-brand-50">Consolidation Loans</a>
+        <a href="/consolidation-loans" class="px-3 py-2 rounded-lg hover:bg-brand-50">Consolidation Loans</a>
         <a href="/personal-loans"      class="px-3 py-2 rounded-lg hover:bg-brand-50">Personal Loans</a>
         <a href="/about"               class="px-3 py-2 rounded-lg hover:bg-brand-50">About</a>
         <a href="/contact"             class="px-3 py-2 rounded-lg hover:bg-brand-50">Contact</a>
