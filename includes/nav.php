@@ -9,7 +9,7 @@
 
       <nav class="hidden lg:flex items-center gap-7 text-sm text-slate-600">
         <a href="/how-it-works"        class="hover:text-brand-700 <?= nav_active('/how-it-works') ?>">How It Works</a>
-        <a href="/debt-consolidation"  class="hover:text-brand-700 <?= nav_active('/debt-consolidation') ?>">Debt Consolidation</a>
+        <a href="/debt-consolidation"  class="hover:text-brand-700 <?= nav_active('/debt-consolidation') ?>">Consolidation Loans</a>
         <a href="/personal-loans"      class="hover:text-brand-700 <?= nav_active('/personal-loans') ?>">Personal Loans</a>
         <a href="/about"               class="hover:text-brand-700 <?= nav_active('/about') ?>">About</a>
         <a href="/contact"             class="hover:text-brand-700 <?= nav_active('/contact') ?>">Contact</a>
@@ -33,7 +33,7 @@
     <div id="mobileMenu" class="hidden lg:hidden pb-4">
       <nav class="flex flex-col gap-1 text-base">
         <a href="/how-it-works"        class="px-3 py-2 rounded-lg hover:bg-brand-50">How It Works</a>
-        <a href="/debt-consolidation"  class="px-3 py-2 rounded-lg hover:bg-brand-50">Debt Consolidation</a>
+        <a href="/debt-consolidation"  class="px-3 py-2 rounded-lg hover:bg-brand-50">Consolidation Loans</a>
         <a href="/personal-loans"      class="px-3 py-2 rounded-lg hover:bg-brand-50">Personal Loans</a>
         <a href="/about"               class="px-3 py-2 rounded-lg hover:bg-brand-50">About</a>
         <a href="/contact"             class="px-3 py-2 rounded-lg hover:bg-brand-50">Contact</a>

@@ -8,7 +8,7 @@
 return [
     '/' => [
         'page'  => 'home',
-        'title' => 'Debt Consolidation & Personal Loans Made Simple',
+        'title' => 'Consolidation Loans & Personal Loans Made Simple',
         'desc'  => 'Loan Streamline Pro helps consumers consolidate debt, lower monthly payments, and compare personal loan options from trusted Lending Partners.',
     ],
     '/about' => [
@@ -19,22 +19,22 @@ return [
     '/how-it-works' => [
         'page'  => 'how-it-works',
         'title' => 'How It Works',
-        'desc'  => 'See how Loan Streamline Pro matches you with debt consolidation and personal loan options in three simple steps.',
+        'desc'  => 'See how Loan Streamline Pro matches you with consolidation loans and personal loan options in three simple steps.',
     ],
     '/debt-consolidation' => [
         'page'  => 'debt-consolidation',
-        'title' => 'Debt Consolidation Made Simple',
-        'desc'  => 'Combine high-interest credit card balances into one lower monthly payment with debt consolidation options from Loan Streamline Pro.',
+        'title' => 'Consolidation Loans Made Simple',
+        'desc'  => 'Combine high-interest credit card balances into one lower monthly payment with consolidation loan options from Loan Streamline Pro.',
     ],
     '/personal-loans' => [
         'page'  => 'personal-loans',
         'title' => 'Personal Loans',
-        'desc'  => 'Explore personal loan options for debt consolidation, large purchases, or emergencies — fast pre-qualification with no impact to your credit score.',
+        'desc'  => 'Explore personal loan options for consolidation, large purchases, or emergencies — fast pre-qualification with no impact to your credit score.',
     ],
     '/contact' => [
         'page'  => 'contact',
         'title' => 'Contact Us',
-        'desc'  => 'Get in touch with Loan Streamline Pro for personal loan and debt consolidation support.',
+        'desc'  => 'Get in touch with Loan Streamline Pro for personal loan and consolidation loan support.',
     ],
     '/privacy-policy' => [
         'page'  => 'privacy-policy',
@@ -59,6 +59,4 @@ return [
     '/thank-you' => [
         'page'  => 'thank-you',
         'title' => 'Thank You',
-        'desc'  => 'Thank you for your inquiry — a Loan Streamline Pro specialist will reach out shortly.',
-    ],
-];
+        'desc'  => 'Thank you for your inquiry — a Loan Streamline Pro 

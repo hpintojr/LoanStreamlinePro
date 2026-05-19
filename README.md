@@ -113,7 +113,7 @@ When you file the 10DLC brand + campaign, you'll need:
 - **Legal business name, DBA, EIN** for Advantage First Financial
 - **Business address + authorized rep**
 - **Website URL** — `https://loanstreamlinepro.com` (live with privacy/terms/SMS terms/CA notice visible)
-- **Vertical / use case** — Financial Services, debt consolidation / loan offers
+- **Vertical / use case** — Financial Services, consolidation loans / loan offers
 - **Sample messages** — pull from the research doc's templates section
 - **Opt-in proof** — screenshot the homepage multi-step form **Step 3** showing the consent block and the linked SMS Terms and Privacy Policy
 - **Opt-in language** (verbatim, also stored in the `consent_text` column of every lead row):

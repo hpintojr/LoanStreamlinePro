@@ -2,7 +2,7 @@
 component('hero', [
   'eyebrow'  => 'Personal loans',
   'headline' => 'Personal loans built<br>around your budget.',
-  'sub'      => 'Borrow $1,000 to $50,000 for almost any purpose — debt consolidation, home improvement, medical expenses, or major purchases.',
+  'sub'      => 'Borrow $1,000 to $50,000 for almost any purpose — consolidating high-interest balances, home improvement, medical expenses, or major purchases.',
   'bullets'  => [
     'Loan amounts from $1,000 – $50,000',
     'Fixed APRs and fixed monthly payments',
@@ -36,7 +36,7 @@ component('hero', [
     <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
       <?php
       $uses = [
-        ['t'=>'Debt consolidation','d'=>'Pay off high-interest credit cards with a single lower-rate loan.','icon'=>'M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z'],
+        ['t'=>'Consolidation loans','d'=>'Pay off high-interest credit cards with a single lower-rate loan.','icon'=>'M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z'],
         ['t'=>'Medical & dental','d'=>'Finance procedures or expenses not covered by insurance.','icon'=>'M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z'],
         ['t'=>'Home improvement','d'=>'Kitchen upgrades, repairs, or energy-efficiency projects.','icon'=>'M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6'],
         ['t'=>'Major life events','d'=>'Weddings, moving expenses, or unexpected emergencies.','icon'=>'M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z'],

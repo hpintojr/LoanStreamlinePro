@@ -9,7 +9,7 @@
 
       <div class="rounded-3xl border border-slate-100 shadow-soft p-7 bg-soft-gradient">
         <p class="text-xs font-semibold uppercase tracking-wide text-brand-700">Most popular</p>
-        <h3 class="mt-2 text-2xl font-bold text-slate-900">Debt Consolidation</h3>
+        <h3 class="mt-2 text-2xl font-bold text-slate-900">Consolidation Loans</h3>
         <p class="mt-3 text-slate-600">Replace multiple high-interest balances with a single fixed monthly payment, often at a lower combined rate.</p>
         <ul class="mt-5 space-y-2 text-sm text-slate-700">
           <li class="flex gap-2"><span class="text-brand-600">✓</span> Best for $5K – $100K of credit card debt</li>

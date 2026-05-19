@@ -1,6 +1,6 @@
 <?php
 component('hero', [
-  'eyebrow'  => 'Debt consolidation',
+  'eyebrow'  => 'Consolidation loans',
   'headline' => 'Consolidate credit card debt<br>into one simple payment.',
   'sub'      => 'Replace multiple high-interest credit card balances with a single, predictable monthly payment — often at a lower combined interest rate.',
   'bullets'  => [
@@ -11,16 +11,16 @@ component('hero', [
 ]);
 ?>
 
-<!-- What is debt consolidation? -->
+<!-- What is a consolidation loan? -->
 <section class="py-16 bg-white">
   <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="grid lg:grid-cols-[1fr,1.4fr] gap-10 items-center">
       <div>
         <p class="text-sm font-semibold text-brand-700 uppercase tracking-wide">The basics</p>
-        <h2 class="mt-2 text-3xl sm:text-4xl font-bold text-slate-900 leading-tight">What is debt consolidation?</h2>
+        <h2 class="mt-2 text-3xl sm:text-4xl font-bold text-slate-900 leading-tight">What is a consolidation loan?</h2>
       </div>
       <div class="rounded-2xl bg-soft-gradient border border-slate-100 p-7 shadow-soft">
-        <p class="text-slate-700 leading-relaxed">Debt consolidation is the process of combining multiple unsecured debts — typically high-interest credit card balances — into a single new loan. Instead of juggling several minimum payments at varying APRs, you make <strong class="text-slate-900">one fixed monthly payment</strong>, often at a lower combined rate.</p>
+        <p class="text-slate-700 leading-relaxed">A consolidation loan combines multiple unsecured debts — typically high-interest credit card balances — into a single new loan. Instead of juggling several minimum payments at varying APRs, you make <strong class="text-slate-900">one fixed monthly payment</strong>, often at a lower combined rate.</p>
       </div>
     </div>
   </div>
@@ -62,7 +62,7 @@ component('hero', [
         <div class="absolute -right-8 -top-8 w-40 h-40 rounded-full bg-white/10 blur-2xl"></div>
         <div class="relative">
           <p class="text-xs font-semibold uppercase tracking-widest text-brand-50/90">Best fit when</p>
-          <h2 class="mt-2 text-2xl font-bold">Debt consolidation works for you if:</h2>
+          <h2 class="mt-2 text-2xl font-bold">A consolidation loan works for you if:</h2>
           <ul class="mt-5 space-y-3">
             <?php foreach ([
               'You have several credit card balances or other unsecured debts.',

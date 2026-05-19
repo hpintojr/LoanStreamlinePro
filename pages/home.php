@@ -1,6 +1,6 @@
 <?php
 component('hero', [
-  'eyebrow'    => 'Personal loans · Debt consolidation',
+  'eyebrow'    => 'Personal loans · Consolidation loans',
   'headline'   => 'Personal loans<br>starting at <span class="text-brand-700">' . FEATURED_RATE_LOW . '%</span> APR.',
   'sub'        => 'Get pre-qualified in 60 seconds and compare real offers from our trusted Lending Partners — without any impact to your credit score.',
   'bullets'    => [
@@ -16,6 +16,4 @@ component('benefits');
 component('how-it-works');
 component('loan-options');
 component('trust-badges');
-component('testimonials');
-component('faq');
-component('cta-banner');
+component('testimo

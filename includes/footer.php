@@ -11,7 +11,7 @@
         <span class="inline-flex items-center justify-center w-9 h-9 rounded-xl bg-brand-gradient text-white font-bold">LS</span>
         <span class="font-bold text-white">Loan Streamline Pro</span>
       </div>
-      <p class="text-sm leading-6 text-slate-400">A simpler path to comparing personal loan and debt consolidation options from trusted lending partners.</p>
+      <p class="text-sm leading-6 text-slate-400">A simpler path to comparing personal loan and consolidation loan options from trusted lending partners.</p>
     </div>
 
     <div>
@@ -19,7 +19,7 @@
       <ul class="space-y-2 text-sm">
         <li><a href="/" class="hover:text-white">Home</a></li>
         <li><a href="/how-it-works" class="hover:text-white">How It Works</a></li>
-        <li><a href="/debt-consolidation" class="hover:text-white">Debt Consolidation</a></li>
+        <li><a href="/debt-consolidation" class="hover:text-white">Consolidation Loans</a></li>
         <li><a href="/personal-loans" class="hover:text-white">Personal Loans</a></li>
         <li><a href="/about" class="hover:text-white">About</a></li>
         <li><a href="/contact" class="hover:text-white">Contact</a></li>

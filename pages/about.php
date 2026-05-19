@@ -2,7 +2,7 @@
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
     <p class="text-sm font-semibold text-brand-700 uppercase tracking-wide">About us</p>
     <h1 class="mt-2 text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-[1.1]">A simpler path out of debt — built for real life.</h1>
-    <p class="mt-5 text-lg text-slate-600 max-w-3xl">Loan Streamline Pro helps consumers compare debt consolidation programs and personal loan options from our trusted Lending Partners, with full transparency on rates, terms, and fees.</p>
+    <p class="mt-5 text-lg text-slate-600 max-w-3xl">Loan Streamline Pro helps consumers compare consolidation loan programs and personal loan options from our trusted Lending Partners, with full transparency on rates, terms, and fees.</p>
   </div>
 </section>
 
@@ -111,3 +111,4 @@
 <?php
 component('trust-badges');
 component('cta-banner', ['title' => 'Ready to simplify your debt?', 'sub' => 'Get matched with options in 60 seconds — no impact to your credit score.']);
+                                                                                                     
