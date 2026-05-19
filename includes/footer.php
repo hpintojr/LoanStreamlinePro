@@ -7,13 +7,22 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 grid gap-10 md:grid-cols-4">
 
     <div class="md:col-span-1">
-      <div class="flex items-center gap-2.5 mb-4">
-        <img src="/assets/img/logo-mark.svg" alt="" class="w-10 h-10" width="40" height="40">
-        <div class="leading-tight">
-          <div class="font-extrabold text-white tracking-tight">Loan <span class="text-brand-400">Streamline</span> Pro</div>
-          <div class="text-[10px] font-semibold uppercase tracking-[0.18em] text-brand-300/80">Streamline today. Close tomorrow.</div>
-        </div>
-      </div>
+      <a href="/" class="inline-block mb-4" aria-label="Loan Streamline Pro — home">
+        <!-- Mobile: mark only -->
+        <img
+          src="/assets/img/logo-mark.png"
+          onerror="this.onerror=null;this.src='/assets/img/logo-mark.svg';"
+          alt="Loan Streamline Pro"
+          width="48" height="48"
+          class="block sm:hidden w-12 h-12">
+        <!-- Tablet + desktop: full horizontal lockup (light variant for dark footer) -->
+        <img
+          src="/assets/img/logo-light.png"
+          onerror="this.onerror=null;this.src='/assets/img/logo-light.svg';"
+          alt="Loan Streamline Pro — Streamline today. Close tomorrow."
+          width="240" height="50"
+          class="hidden sm:block h-11 w-auto">
+      </a>
       <p class="text-sm leading-6 text-slate-400">A simpler path to comparing personal loan and consolidation loan options from trusted lending partners.</p>
     </div>
 

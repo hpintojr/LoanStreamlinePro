@@ -2,22 +2,31 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16">
 
-      <a href="/" class="flex items-center gap-2.5 group" aria-label="Loan Streamline Pro — home">
-        <img src="/assets/img/logo-mark.svg" alt="" class="w-10 h-10 group-hover:scale-105 transition" width="40" height="40">
-        <span class="hidden sm:inline-flex flex-col leading-tight">
-          <span class="font-extrabold text-slate-900 tracking-tight text-base">
-            Loan <span class="text-brand-600">Streamline</span> Pro
-          </span>
-          <span class="text-[10px] font-semibold uppercase tracking-[0.18em] text-brand-700">Streamline today. Close tomorrow.</span>
-        </span>
+      <!-- Logo: mark-only on mobile, full horizontal lockup on sm+
+           Each <img> tries PNG first, falls back to SVG if the PNG is missing. -->
+      <a href="/" class="flex items-center group" aria-label="Loan Streamline Pro — home">
+        <!-- Mobile: icon only (square mark) -->
+        <img
+          src="/assets/img/logo-mark.png"
+          onerror="this.onerror=null;this.src='/assets/img/logo-mark.svg';"
+          alt="Loan Streamline Pro"
+          width="40" height="40"
+          class="block sm:hidden w-10 h-10 group-hover:scale-105 transition">
+        <!-- Tablet + desktop: full horizontal logo -->
+        <img
+          src="/assets/img/logo.png"
+          onerror="this.onerror=null;this.src='/assets/img/logo.svg';"
+          alt="Loan Streamline Pro — Streamline today. Close tomorrow."
+          width="240" height="50"
+          class="hidden sm:block h-10 lg:h-11 w-auto group-hover:opacity-95 transition">
       </a>
 
       <nav class="hidden lg:flex items-center gap-7 text-sm text-slate-600">
-        <a href="/how-it-works"       class="hover:text-brand-700 <?= nav_active('/how-it-works') ?>">How It Works</a>
+        <a href="/how-it-works"        class="hover:text-brand-700 <?= nav_active('/how-it-works') ?>">How It Works</a>
         <a href="/consolidation-loans" class="hover:text-brand-700 <?= nav_active('/consolidation-loans') ?>">Consolidation Loans</a>
-        <a href="/personal-loans"     class="hover:text-brand-700 <?= nav_active('/personal-loans') ?>">Personal Loans</a>
-        <a href="/about"              class="hover:text-brand-700 <?= nav_active('/about') ?>">About</a>
-        <a href="/contact"            class="hover:text-brand-700 <?= nav_active('/contact') ?>">Contact</a>
+        <a href="/personal-loans"      class="hover:text-brand-700 <?= nav_active('/personal-loans') ?>">Personal Loans</a>
+        <a href="/about"               class="hover:text-brand-700 <?= nav_active('/about') ?>">About</a>
+        <a href="/contact"             class="hover:text-brand-700 <?= nav_active('/contact') ?>">Contact</a>
       </nav>
 
       <div class="flex items-center gap-2">
