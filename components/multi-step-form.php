@@ -27,7 +27,7 @@ $src = isset($source_page) ? $source_page : '';
 
     <input type="hidden" name="csrf_token" value="<?= e(csrf_token()) ?>">
     <input type="hidden" name="source_page" value="<?= e(current_path()) ?>">
-    <input type="hidden" name="consent_text" id="consentText" value="<?= e(SMS_CONSENT_TEXT) ?>">
+    <!-- (sms_consent_text / call_consent_text hidden fields are emitted later inside step 3) -->
     <input type="hidden" name="consent_timestamp" id="consentTimestamp" value="">
 
     <!-- Honeypot (bots fill this, humans don't) -->
@@ -155,23 +155,30 @@ $src = isset($source_page) ? $source_page : '';
         </select>
       </label>
 
-      <!-- ===== 10DLC / TCPA consent block ===== -->
-      <div class="rounded-xl bg-slate-50 border border-slate-200 p-4 text-xs text-slate-600 space-y-3">
-        <label class="flex items-start gap-3 cursor-pointer">
+      <!-- ===== TCPA / 10DLC consent (BOTH OPTIONAL — form submits without either) ===== -->
+      <div class="space-y-3">
+
+        <!-- SMS opt-in -->
+        <label class="flex items-start gap-3 p-4 rounded-xl border border-slate-200 bg-white hover:border-brand-200 cursor-pointer transition">
           <input type="checkbox" name="sms_consent" value="1" class="mt-1 rounded border-slate-300 text-brand-600 focus:ring-brand-500">
-          <span>
-            I agree to receive marketing and informational text messages (SMS) from Loan Streamline Pro at the phone number provided, including messages sent using an autodialer or AI/conversational technology. Consent is not a condition of any purchase or service. Msg &amp; data rates may apply. Message frequency varies. Reply HELP for help, STOP to cancel. View our <a href="/privacy-policy" class="text-brand-700 underline">Privacy Policy</a>.
+          <span class="text-xs text-slate-700 leading-relaxed">
+            I agree to receive marketing and informational text messages (SMS) from <?= e(SITE_NAME) ?> at the phone number provided, including messages sent using an autodialer or AI/conversational technology. Consent is not a condition of any purchase or service. Msg &amp; data rates may apply. Message frequency varies. Reply HELP for help, STOP to cancel. View our <a href="/privacy-policy" class="text-brand-700 underline font-semibold">Privacy Policy</a>.
           </span>
         </label>
-        
-        <label class="flex items-start gap-3 cursor-pointer">
+
+        <!-- Phone-call opt-in -->
+        <label class="flex items-start gap-3 p-4 rounded-xl border border-slate-200 bg-white hover:border-brand-200 cursor-pointer transition">
           <input type="checkbox" name="call_consent" value="1" class="mt-1 rounded border-slate-300 text-brand-600 focus:ring-brand-500">
-          <span>
+          <span class="text-xs text-slate-700 leading-relaxed">
             I agree to receive marketing and informational phone calls from <?= e(SITE_NAME) ?> at the phone number provided, including calls placed using an automatic telephone dialing system or an artificial or prerecorded voice. Consent is not a condition of any purchase or service.
           </span>
         </label>
-        <p><strong class="text-slate-800">AI Disclosure:</strong> <?= e(AI_DISCLOSURE_TEXT) ?></p>
+
       </div>
+
+      <!-- Hidden audit fields: exact consent text shown is stored with the lead -->
+      <input type="hidden" name="sms_consent_text"  value="<?= e(SMS_CONSENT_TEXT) ?>">
+      <input type="hidden" name="call_consent_text" value="<?= e(CALL_CONSENT_TEXT) ?>">
 
       <div class="pt-2 flex justify-between gap-3">
         <button type="button" class="prev-step inline-flex items-center justify-center px-5 py-2.5 rounded-full border border-slate-200 text-slate-700 text-sm font-semibold">← Back</button>

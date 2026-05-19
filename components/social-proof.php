@@ -4,7 +4,7 @@
     <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 items-center text-center">
       <div class="trust-badge">
         <p class="text-3xl font-extrabold text-brand-700">$120M+</p>
-        <p class="text-xs text-slate-500">in debt enrolled by Advantage First clients</p>
+        <p class="text-xs text-slate-500">in debt matched with Lending Partner options</p>
       </div>
       <div class="trust-badge">
         <p class="text-3xl font-extrabold text-brand-700">A+ <span class="text-base">Effort</span></p>

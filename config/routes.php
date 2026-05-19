@@ -9,12 +9,12 @@ return [
     '/' => [
         'page'  => 'home',
         'title' => 'Debt Consolidation & Personal Loans Made Simple',
-        'desc'  => 'Loan Streamline Pro helps consumers consolidate debt, lower monthly payments, and access personal loan options through Advantage First Financial.',
+        'desc'  => 'Loan Streamline Pro helps consumers consolidate debt, lower monthly payments, and compare personal loan options from trusted Lending Partners.',
     ],
     '/about' => [
         'page'  => 'about',
         'title' => 'About Us',
-        'desc'  => 'Learn about Loan Streamline Pro and Advantage First Financial — helping consumers reduce debt and rebuild financial freedom.',
+        'desc'  => 'Learn about Loan Streamline Pro — helping consumers reduce debt and access personal loan options through trusted Lending Partners.',
     ],
     '/how-it-works' => [
         'page'  => 'how-it-works',
@@ -39,7 +39,7 @@ return [
     '/privacy-policy' => [
         'page'  => 'privacy-policy',
         'title' => 'Privacy Policy',
-        'desc'  => 'Privacy Policy for Loan Streamline Pro and Advantage First Financial.',
+        'desc'  => 'Privacy Policy for Loan Streamline Pro — how we collect, use, and share your information with Lending Partners.',
     ],
     '/terms-and-conditions' => [
         'page'  => 'terms-conditions',

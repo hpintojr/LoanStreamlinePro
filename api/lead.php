@@ -129,27 +129,32 @@ if (!empty($_POST['website'])) {
 // ---- Validate -----------------------------------------------------------
 $errors = [];
 
-$first_name     = trim((string)($_POST['first_name'] ?? ''));
-$last_name      = trim((string)($_POST['last_name'] ?? ''));
-$email          = trim((string)($_POST['email'] ?? ''));
-$phone_raw      = trim((string)($_POST['phone'] ?? ''));
-$state          = strtoupper(trim((string)($_POST['state'] ?? '')));
+$first_name        = trim((string)($_POST['first_name'] ?? ''));
+$last_name         = trim((string)($_POST['last_name'] ?? ''));
+$email             = trim((string)($_POST['email'] ?? ''));
+$phone_raw         = trim((string)($_POST['phone'] ?? ''));
+$state             = strtoupper(trim((string)($_POST['state'] ?? '')));
 // Only accept 2-letter US state codes; otherwise store null.
-$validStates    = ['AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY'];
+$validStates       = ['AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY'];
 if (!in_array($state, $validStates, true)) $state = '';
-$debt_amount    = trim((string)($_POST['debt_amount'] ?? ''));
-$loan_purpose   = trim((string)($_POST['loan_purpose'] ?? ''));
-$credit_range   = trim((string)($_POST['credit_range'] ?? ''));
-$monthly_income = trim((string)($_POST['monthly_income'] ?? ''));
-$source_page    = trim((string)($_POST['source_page'] ?? '/'));
-$consent_text   = trim((string)($_POST['consent_text'] ?? SMS_CONSENT_TEXT));
-$sms_consent    = !empty($_POST['sms_consent']) ? 1 : 0;
+$debt_amount       = trim((string)($_POST['debt_amount'] ?? ''));
+$loan_purpose      = trim((string)($_POST['loan_purpose'] ?? ''));
+$credit_range      = trim((string)($_POST['credit_range'] ?? ''));
+$monthly_income    = trim((string)($_POST['monthly_income'] ?? ''));
+$source_page       = trim((string)($_POST['source_page'] ?? '/'));
+
+// Two OPTIONAL consents — neither is required for a valid submission.
+// We always store the *exact text shown* (from hidden fields) so the audit
+// trail proves which version of the disclosure the user actually saw.
+$sms_consent       = !empty($_POST['sms_consent'])  ? 1 : 0;
+$call_consent      = !empty($_POST['call_consent']) ? 1 : 0;
+$sms_consent_text  = trim((string)($_POST['sms_consent_text']  ?? SMS_CONSENT_TEXT));
+$call_consent_text = trim((string)($_POST['call_consent_text'] ?? CALL_CONSENT_TEXT));
 
 if ($first_name === '' || mb_strlen($first_name) > 80)        $errors[] = 'First name is required.';
 if (!filter_var($email, FILTER_VALIDATE_EMAIL))               $errors[] = 'A valid email is required.';
 $phone_digits = preg_replace('/\D/', '', $phone_raw);
 if (strlen($phone_digits) < 10 || strlen($phone_digits) > 15) $errors[] = 'A valid phone number is required.';
-if ($sms_consent !== 1)                                       $errors[] = 'You must agree to receive SMS messages to continue.';
 
 if ($errors) {
     reply(false, implode(' ', $errors), ['errors' => $errors], 422);
@@ -186,8 +191,10 @@ $lead = [
     'utm_source'         => $utm['utm_source'],
     'utm_medium'         => $utm['utm_medium'],
     'utm_campaign'       => $utm['utm_campaign'],
-    'sms_consent'        => 1,
-    'consent_text'       => $consent_text,
+    'sms_consent'        => $sms_consent,
+    'sms_consent_text'   => $sms_consent_text,
+    'call_consent'       => $call_consent,
+    'call_consent_text'  => $call_consent_text,
     'consent_ip'         => $ip,
     'consent_user_agent' => $ua,
     'consent_timestamp'  => $now,

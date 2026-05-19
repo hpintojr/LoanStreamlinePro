@@ -10,7 +10,7 @@
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 prose prose-slate max-w-none">
 
     <h2>Program description</h2>
-    <p>The <?= e(SITE_NAME) ?> SMS program ("Program") is operated by <?= e(PARENT_COMPANY) ?>. The Program sends text messages relating to debt consolidation, personal loan options, account updates, appointment reminders, and customer support — only to recipients who have expressly opted in.</p>
+    <p>The <?= e(SITE_NAME) ?> SMS program ("Program") is operated by <?= e(OPERATING_ENTITY) ?>. The Program sends text messages relating to debt consolidation, personal loan options, account updates, appointment reminders, and customer support — only to recipients who have expressly opted in.</p>
 
     <h2>Consent (opt-in)</h2>
     <p><?= e(SMS_CONSENT_TEXT) ?></p>
@@ -44,7 +44,7 @@
     <p>We may update these SMS Terms from time to time. Material changes will be posted to this page with a revised "Last updated" date.</p>
 
     <h2>Contact</h2>
-    <p><?= e(PARENT_COMPANY) ?><br><?= e(BUSINESS_ADDRESS) ?><br><a href="mailto:<?= e(BUSINESS_EMAIL) ?>"><?= e(BUSINESS_EMAIL) ?></a> · <a href="tel:<?= e(BUSINESS_PHONE_RAW) ?>"><?= e(BUSINESS_PHONE) ?></a></p>
+    <p><?= e(OPERATING_ENTITY) ?><br><?= e(OPERATING_ADDR_ONE_LINE) ?><br><a href="mailto:<?= e(BUSINESS_EMAIL) ?>"><?= e(BUSINESS_EMAIL) ?></a> · <a href="tel:<?= e(BUSINESS_PHONE_RAW) ?>"><?= e(BUSINESS_PHONE) ?></a></p>
 
   </div>
 </article>

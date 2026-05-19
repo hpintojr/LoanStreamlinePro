@@ -21,10 +21,12 @@ CREATE TABLE IF NOT EXISTS `leads` (
     `utm_medium`       VARCHAR(80)   DEFAULT NULL,
     `utm_campaign`     VARCHAR(120)  DEFAULT NULL,
 
-    -- 10DLC / TCPA consent audit trail
-    `sms_consent`      TINYINT(1)    NOT NULL DEFAULT 0,
-    `consent_text`     TEXT          DEFAULT NULL, -- exact text shown to user at submission
-    `consent_ip`       VARCHAR(45)   DEFAULT NULL,
+    -- TCPA / 10DLC consent audit trail (both consents are OPTIONAL on the form)
+    `sms_consent`        TINYINT(1)  NOT NULL DEFAULT 0,
+    `sms_consent_text`   TEXT        DEFAULT NULL, -- exact SMS consent text shown to user
+    `call_consent`       TINYINT(1)  NOT NULL DEFAULT 0,
+    `call_consent_text`  TEXT        DEFAULT NULL, -- exact phone-call consent text shown to user
+    `consent_ip`         VARCHAR(45) DEFAULT NULL,
     `consent_user_agent` VARCHAR(255) DEFAULT NULL,
     `consent_timestamp`  DATETIME    DEFAULT NULL,
 

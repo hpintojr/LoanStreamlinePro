@@ -80,7 +80,6 @@ tailwind.config = {
   "name": "<?= e(SITE_NAME) ?>",
   "alternateName": "LSLP",
   "url": "<?= e(SITE_URL) ?>",
-  "parentOrganization": { "@type": "Organization", "name": "<?= e(PARENT_COMPANY) ?>" },
   "areaServed": { "@type": "Country", "name": "United States" },
   "telephone": "<?= e(BUSINESS_PHONE_RAW) ?>",
   "email": "<?= e(BUSINESS_EMAIL) ?>"

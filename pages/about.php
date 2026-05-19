@@ -2,7 +2,7 @@
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
     <p class="text-sm font-semibold text-brand-700 uppercase tracking-wide">About us</p>
     <h1 class="mt-2 text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-[1.1]">A simpler path out of debt — built for real life.</h1>
-    <p class="mt-5 text-lg text-slate-600 max-w-3xl">Loan Streamline Pro is a marketing brand operated by <strong class="text-slate-800"><?= e(PARENT_COMPANY) ?></strong>. We help consumers compare debt consolidation programs and personal loan options from our trusted lending partners, with full transparency on rates, terms, and fees.</p>
+    <p class="mt-5 text-lg text-slate-600 max-w-3xl">Loan Streamline Pro helps consumers compare debt consolidation programs and personal loan options from our trusted Lending Partners, with full transparency on rates, terms, and fees.</p>
   </div>
 </section>
 
