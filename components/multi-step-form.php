@@ -167,11 +167,10 @@ $src = isset($source_page) ? $source_page : '';
         <label class="flex items-start gap-3 cursor-pointer">
           <input type="checkbox" name="call_consent" value="1" class="mt-1 rounded border-slate-300 text-brand-600 focus:ring-brand-500">
           <span>
-            I agree to receive marketing and informational phone calls from Loan Streamline Pro at the phone number provided, including calls placed using an automatic telephone dialing system or an artificial or prerecorded voice. Consent is not a condition of any purchase or service.
+            I agree to receive marketing and informational phone calls from <?= e(SITE_NAME) ?> at the phone number provided, including calls placed using an automatic telephone dialing system or an artificial or prerecorded voice. Consent is not a condition of any purchase or service.
           </span>
         </label>
         <p><strong class="text-slate-800">AI Disclosure:</strong> <?= e(AI_DISCLOSURE_TEXT) ?></p>
-        <p>By clicking submit, you consent to be contacted by <?= e(SITE_NAME) ?> and <?= e(PARENT_COMPANY) ?> at the number provided, including via auto-dialer, prerecorded voice, and SMS. Consent is not a condition of any purchase. Standard message and data rates may apply.</p>
       </div>
 
       <div class="pt-2 flex justify-between gap-3">
