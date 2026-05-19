@@ -1,0 +1,39 @@
+/* =============================================================================
+   Loan Streamline Pro — supplemental styles (Tailwind handles 95% of styling)
+   ============================================================================= */
+
+html { scroll-behavior: smooth; }
+
+/* Subtle hero blob background */
+.blob {
+  position: absolute;
+  filter: blur(60px);
+  opacity: .55;
+  border-radius: 9999px;
+  pointer-events: none;
+}
+
+/* Multi-step form indicator dots */
+.step-dot {
+  width: 10px; height: 10px; border-radius: 9999px;
+  background: #cbd5e1; transition: background .2s, transform .2s;
+}
+.step-dot.active   { background: #2563eb; transform: scale(1.25); }
+.step-dot.complete { background: #1d4ed8; }
+
+/* Trust badge subtle hover */
+.trust-badge { transition: transform .15s ease; }
+.trust-badge:hover { transform: translateY(-2px); }
+
+/* FAQ chevron rotation */
+details[open] .faq-chevron { transform: rotate(180deg); }
+.faq-chevron { transition: transform .2s ease; }
+
+/* Honeypot — hidden but accessible to bots */
+.hp-field { position: absolute !important; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden; }
+
+/* Print: hide nav/sticky/footer CTAs for compliance printouts */
+@media print {
+  header, #stickyCta, .no-print { display: none !important; }
+  body { color: #000; background: #fff; }
+}

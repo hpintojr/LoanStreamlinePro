@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /config/
+Disallow: /includes/
+Disallow: /components/
+Disallow: /pages/
+Disallow: /sql/
+
+Sitemap: https://loanstreamlinepro.com/sitemap.xml

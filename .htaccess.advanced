@@ -1,0 +1,75 @@
+# =============================================================================
+# Loan Streamline Pro — .htaccess (ADVANCED — security headers, caching, gzip)
+#
+# Only use this AFTER the minimal .htaccess is confirmed working on IONOS.
+# To use: rename this file to .htaccess (overwriting the minimal one).
+#
+# If you get a 500 after swapping in this file, comment out blocks one at a
+# time (Options, FilesMatch, Header, etc.) to identify which directive your
+# IONOS account doesn't permit, then keep only the ones it does.
+# =============================================================================
+
+DirectoryIndex index.php
+
+# IONOS sometimes restricts Options in user .htaccess. If this line triggers
+# a 500, comment it out — the front-controller routing works without it,
+# you just may need to hit URLs slightly differently.
+# Options -MultiViews
+
+RewriteEngine On
+RewriteBase /
+
+# --- Force HTTPS ------------------------------------------------------------
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# --- Force non-www (canonical) ---------------------------------------------
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
+
+# --- Front controller -------------------------------------------------------
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [L,QSA]
+
+# --- Hide sensitive dotfiles ------------------------------------------------
+<FilesMatch "^(\.htaccess|\.htpasswd|\.env|composer\.json|composer\.lock|README\.md|\.git.*)$">
+    Require all denied
+</FilesMatch>
+
+# --- Block direct access to PHP source files in protected folders -----------
+# (Pretty URLs like /api/lead still work — these only block real .php files.)
+RedirectMatch 404 ^/config/.*\.php$
+RedirectMatch 404 ^/includes/.*\.php$
+RedirectMatch 404 ^/components/.*\.php$
+RedirectMatch 404 ^/pages/.*\.php$
+RedirectMatch 404 ^/api/.*\.php$
+RedirectMatch 404 ^/sql/.*$
+
+# --- Security headers (skipped silently if mod_headers absent) -------------
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+    Header set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+    Header set Strict-Transport-Security "max-age=31536000; includeSubDomains" env=HTTPS
+</IfModule>
+
+# --- Gzip compression ------------------------------------------------------
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript application/json image/svg+xml text/xml application/xml
+</IfModule>
+
+# --- Browser caching for static assets -------------------------------------
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css "access plus 30 days"
+    ExpiresByType application/javascript "access plus 30 days"
+    ExpiresByType image/jpeg "access plus 90 days"
+    ExpiresByType image/png "access plus 90 days"
+    ExpiresByType image/webp "access plus 90 days"
+    ExpiresByType image/svg+xml "access plus 90 days"
+    ExpiresByType image/x-icon "access plus 365 days"
+    ExpiresByType font/woff2 "access plus 365 days"
+</IfModule>
