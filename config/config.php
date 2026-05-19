@@ -11,7 +11,7 @@
 define('SITE_NAME',          'Loan Streamline Pro');
 define('SITE_SHORT',         'LSP');
 define('SITE_URL',           'https://loanstreamlinepro.com');
-define('SITE_TAGLINE',       'Simplify your debt. Strengthen your future.');
+define('SITE_TAGLINE',       'Simplify your balances. Strengthen your future.');
 
 // --- Operating entity (appears throughout the site) --------------------
 define('OPERATING_ENTITY',   'Loan Streamline Pro');

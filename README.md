@@ -90,7 +90,7 @@ If your domain document root is already `/Public_html/www/loanstreamlinepro/`, y
 ### 4. Sanity check
 
 Visit each of these URLs and confirm a 200:
-- `/` `/about` `/how-it-works` `/debt-consolidation` `/personal-loans` `/contact` `/privacy-policy` `/terms-and-conditions` `/sms-terms` `/california-privacy`
+- `/` `/about` `/how-it-works` `/consolidation-loans` `/personal-loans` `/contact` `/privacy-policy` `/terms-and-conditions` `/sms-terms` `/california-privacy`
 - `/some-bad-url` → 404 page
 
 Submit a test lead through the homepage form and confirm:

@@ -19,7 +19,7 @@
       <ul class="space-y-2 text-sm">
         <li><a href="/" class="hover:text-white">Home</a></li>
         <li><a href="/how-it-works" class="hover:text-white">How It Works</a></li>
-        <li><a href="/debt-consolidation" class="hover:text-white">Consolidation Loans</a></li>
+        <li><a href="/consolidation-loans" class="hover:text-white">Consolidation Loans</a></li>
         <li><a href="/personal-loans" class="hover:text-white">Personal Loans</a></li>
         <li><a href="/about" class="hover:text-white">About</a></li>
         <li><a href="/contact" class="hover:text-white">Contact</a></li>

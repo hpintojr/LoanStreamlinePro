@@ -26,7 +26,7 @@ function nav_active(string $path, string $activeClass = 'text-blue-700 font-semi
 }
 
 /**
- * Current request path, normalized: e.g. "/", "/about", "/debt-consolidation".
+ * Current request path, normalized: e.g. "/", "/about", "/consolidation-loans".
  * Resolution order (IONOS CGI/FastCGI tolerant):
  *   1. $_GET['_url']            — set by .htaccess rewrite (most reliable on IONOS)
  *   2. $_SERVER['PATH_INFO']    — works if someone hits /index.php/about directly

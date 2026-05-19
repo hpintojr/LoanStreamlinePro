@@ -35,9 +35,9 @@ $src = isset($source_page) ? $source_page : '';
       <label>Company website <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
     </div>
 
-    <!-- STEP 1: Debt amount -->
+    <!-- STEP 1: Balance amount -->
     <fieldset data-step="1" class="space-y-4">
-      <legend class="text-sm font-semibold text-slate-700">How much unsecured debt do you have?</legend>
+      <legend class="text-sm font-semibold text-slate-700">How much do you owe in unsecured balances?</legend>
       <div class="grid grid-cols-2 gap-3">
         <?php foreach ([
             '$5,000 – $10,000',
@@ -64,7 +64,7 @@ $src = isset($source_page) ? $source_page : '';
         <span class="text-sm text-slate-700">Primary goal</span>
         <select name="loan_purpose" required class="mt-1 block w-full rounded-xl border-slate-200 focus:border-brand-500 focus:ring-brand-500">
           <option value="">Select…</option>
-          <option>Consolidate credit card debt</option>
+          <option>Consolidate credit card balances</option>
           <option>Lower my monthly payment</option>
           <option>Pay off medical bills</option>
           <option>Home improvement</option>

@@ -20,6 +20,9 @@ RewriteCond %{HTTPS} off
 RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
+# --- 301 redirect: old /debt-consolidation URL → new /consolidation-loans --
+RewriteRule ^debt-consolidation/?$ /consolidation-loans [L,R=301]
+
 # --- Front controller: route every non-asset URL through index.php ----------
 # Real files (css, js, images, robots.txt, sitemap.xml, favicon) pass through.
 # Everything else is sent to index.php with the original path in ?_url=...

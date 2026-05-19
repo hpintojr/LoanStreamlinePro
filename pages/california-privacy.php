@@ -15,17 +15,17 @@
     <ul>
       <li><strong>Identifiers:</strong> name, email, phone number, IP address.</li>
       <li><strong>Customer records:</strong> mailing address, employment information.</li>
-      <li><strong>Commercial information:</strong> debt amount, credit range, loan purpose.</li>
+      <li><strong>Commercial information:</strong> balance amount, credit range, loan purpose.</li>
       <li><strong>Internet activity:</strong> pages visited, referring URLs, device data.</li>
       <li><strong>Geolocation:</strong> approximate location derived from IP address.</li>
       <li><strong>Inferences:</strong> profile data used to match you with appropriate loan or program options.</li>
     </ul>
 
     <h2>How we use this information</h2>
-    <p>We use these categories to respond to your inquiries, present loan and debt-relief options from our partners, fulfill our SMS Program, maintain security, prevent fraud, and meet legal and regulatory requirements (including 10DLC and TCPA recordkeeping).</p>
+    <p>We use these categories to respond to your inquiries, present loan and credit-relief options from our partners, fulfill our SMS Program, maintain security, prevent fraud, and meet legal and regulatory requirements (including 10DLC and TCPA recordkeeping).</p>
 
     <h2>Categories of personal information we share</h2>
-    <p>We share identifiers, customer records, commercial information, and inferences with our lending and debt-relief partners and our service providers (hosting, analytics, email/SMS, lead routing). We do not "sell" personal information in the traditional sense, but sharing your information with lending partners so they can present offers may be considered "sharing" under the CPRA.</p>
+    <p>We share identifiers, customer records, commercial information, and inferences with our lending and credit-relief partners and our service providers (hosting, analytics, email/SMS, lead routing). We do not "sell" personal information in the traditional sense, but sharing your information with lending partners so they can present offers may be considered "sharing" under the CPRA.</p>
 
     <h2>Your California rights</h2>
     <ul>

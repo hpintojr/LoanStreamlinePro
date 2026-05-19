@@ -1,7 +1,7 @@
 <?php
 $reviews = $reviews ?? [
   ['name'=>'Maria G.',  'loc'=>'Phoenix, AZ',  'stars'=>5, 'text'=>'I was juggling six credit cards. One call, one form, and I had a clear plan within a week. My monthly payment dropped by over $400.'],
-  ['name'=>'Daniel R.', 'loc'=>'Tampa, FL',    'stars'=>5, 'text'=>'They explained everything in plain English. No high-pressure sales. I finally feel like I have a roadmap to be debt-free.'],
+  ['name'=>'Daniel R.', 'loc'=>'Tampa, FL',    'stars'=>5, 'text'=>'They explained everything in plain English. No high-pressure sales. I finally feel like I have a clear plan to pay everything off.'],
   ['name'=>'Karen H.',  'loc'=>'Columbus, OH', 'stars'=>5, 'text'=>'After comparing offers, I chose a consolidation loan that fit my budget. The specialist was patient and answered every question.'],
 ];
 ?>

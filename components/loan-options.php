@@ -12,12 +12,12 @@
         <h3 class="mt-2 text-2xl font-bold text-slate-900">Consolidation Loans</h3>
         <p class="mt-3 text-slate-600">Replace multiple high-interest balances with a single fixed monthly payment, often at a lower combined rate.</p>
         <ul class="mt-5 space-y-2 text-sm text-slate-700">
-          <li class="flex gap-2"><span class="text-brand-600">✓</span> Best for $5K – $100K of credit card debt</li>
+          <li class="flex gap-2"><span class="text-brand-600">✓</span> Best for $5K – $100K of credit card balances</li>
           <li class="flex gap-2"><span class="text-brand-600">✓</span> Fixed terms from 24 to 60 months</li>
           <li class="flex gap-2"><span class="text-brand-600">✓</span> One payment, one due date</li>
         </ul>
         <div class="mt-6 flex flex-wrap gap-3">
-          <a href="/debt-consolidation" class="inline-flex items-center px-5 py-2.5 rounded-full border border-brand-200 text-brand-700 font-semibold hover:bg-brand-50">Learn more</a>
+          <a href="/consolidation-loans" class="inline-flex items-center px-5 py-2.5 rounded-full border border-brand-200 text-brand-700 font-semibold hover:bg-brand-50">Learn more</a>
           <a href="/#apply" class="inline-flex items-center px-5 py-2.5 rounded-full bg-brand-gradient text-white font-semibold shadow-soft">Check my rate</a>
         </div>
       </div>

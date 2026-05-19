@@ -1,7 +1,7 @@
 <section class="bg-soft-gradient py-16 sm:py-20">
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
     <p class="text-sm font-semibold text-brand-700 uppercase tracking-wide">About us</p>
-    <h1 class="mt-2 text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-[1.1]">A simpler path out of debt — built for real life.</h1>
+    <h1 class="mt-2 text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-[1.1]">A simpler path to financial freedom — built for real life.</h1>
     <p class="mt-5 text-lg text-slate-600 max-w-3xl">Loan Streamline Pro helps consumers compare consolidation loan programs and personal loan options from our trusted Lending Partners, with full transparency on rates, terms, and fees.</p>
   </div>
 </section>
@@ -13,8 +13,8 @@
       <div class="absolute -right-16 -top-16 w-64 h-64 rounded-full bg-white/10 blur-2xl"></div>
       <div class="relative max-w-3xl">
         <p class="text-xs font-semibold uppercase tracking-widest text-brand-50/90">Our mission</p>
-        <p class="mt-4 text-2xl sm:text-3xl font-bold leading-tight">High-interest credit card debt is one of the most stressful financial burdens facing households today.</p>
-        <p class="mt-4 text-brand-50/95 leading-relaxed">Our mission is to make it easier to find a clear, affordable path forward — whether that's a consolidation loan, a structured debt program, or a conversation with a real specialist who can answer your questions in plain English.</p>
+        <p class="mt-4 text-2xl sm:text-3xl font-bold leading-tight">High-interest credit card balances is one of the most stressful financial burdens facing households today.</p>
+        <p class="mt-4 text-brand-50/95 leading-relaxed">Our mission is to make it easier to find a clear, affordable path forward — whether that's a consolidation loan, a structured payoff program, or a conversation with a real specialist who can answer your questions in plain English.</p>
       </div>
     </div>
   </div>
@@ -110,5 +110,5 @@
 
 <?php
 component('trust-badges');
-component('cta-banner', ['title' => 'Ready to simplify your debt?', 'sub' => 'Get matched with options in 60 seconds — no impact to your credit score.']);
+component('cta-banner', ['title' => 'Ready to simplify your balances?', 'sub' => 'Get matched with options in 60 seconds — no impact to your credit score.']);
                                                                                                      
