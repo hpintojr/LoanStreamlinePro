@@ -1,6 +1,6 @@
 <?php
 /**
- * Simple route → page mapping.
+ * Simple route -> page mapping.
  *  - Keys are normalized request paths (no trailing slash, "/" for home).
  *  - Values are: ['page' => filename in /pages, 'title' => SEO title, 'desc' => meta description].
  */
@@ -14,7 +14,7 @@ return [
     '/about' => [
         'page'  => 'about',
         'title' => 'About Us',
-        'desc'  => 'Learn about Loan Streamline Pro — helping consumers reduce balances and access personal loan options through trusted Lending Partners.',
+        'desc'  => 'Learn about Loan Streamline Pro — helping consumers compare personal loan options through trusted Lending Partners.',
     ],
     '/how-it-works' => [
         'page'  => 'how-it-works',
@@ -43,8 +43,8 @@ return [
     ],
     '/terms-and-conditions' => [
         'page'  => 'terms-conditions',
-        'title' => 'Terms & Conditions',
-        'desc'  => 'Terms & Conditions for using the Loan Streamline Pro website and services.',
+        'title' => 'Terms of Service',
+        'desc'  => 'Terms of Service for using the Loan Streamline Pro website and services.',
     ],
     '/sms-terms' => [
         'page'  => 'sms-terms',
@@ -54,9 +54,11 @@ return [
     '/california-privacy' => [
         'page'  => 'california-privacy',
         'title' => 'California Privacy Notice (CCPA / CPRA)',
-        'desc'  => 'California Consumer Privacy Act notice for Loan Streamline Pro residents of California.',
+        'desc'  => 'California Consumer Privacy Act notice for residents of California.',
     ],
     '/thank-you' => [
         'page'  => 'thank-you',
         'title' => 'Thank You',
-        'desc'  => 'Thank you for your inquiry — a Loan Streamline Pro 
+        'desc'  => 'Thank you for your inquiry — a Loan Streamline Pro specialist will reach out shortly.',
+    ],
+];
