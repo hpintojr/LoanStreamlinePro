@@ -2,20 +2,13 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16">
 
-      <!-- Logo: mark-only on mobile, full horizontal lockup on sm+ (SVG) -->
+      <!-- Logo: full horizontal lockup on all breakpoints (SVG) -->
       <a href="/" class="flex items-center group" aria-label="Loan Streamline Pro — home">
-        <!-- Mobile: icon only (square mark) -->
-        <img
-          src="/assets/img/logo-mark.svg"
-          alt="Loan Streamline Pro"
-          width="40" height="40"
-          class="block sm:hidden w-10 h-10 group-hover:scale-105 transition">
-        <!-- Tablet + desktop: full horizontal logo -->
         <img
           src="/assets/img/logo.svg"
-          alt="Loan Streamline Pro — Streamline today. Close tomorrow."
-          width="240" height="50"
-          class="hidden sm:block h-10 lg:h-11 w-auto group-hover:opacity-95 transition">
+          alt="Loan Streamline Pro"
+          width="240" height="45"
+          class="block h-9 sm:h-10 lg:h-11 w-auto group-hover:opacity-95 transition">
       </a>
 
       <nav class="hidden lg:flex items-center gap-7 text-sm text-slate-600">

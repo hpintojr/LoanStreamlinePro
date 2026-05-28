@@ -8,18 +8,12 @@
 
     <div class="md:col-span-1">
       <a href="/" class="inline-block mb-4" aria-label="Loan Streamline Pro — home">
-        <!-- Mobile: mark only -->
-        <img
-          src="/assets/img/logo-mark.svg"
-          alt="Loan Streamline Pro"
-          width="48" height="48"
-          class="block sm:hidden w-12 h-12">
-        <!-- Tablet + desktop: full horizontal lockup (light variant for dark footer) -->
+        <!-- Full horizontal lockup on all breakpoints (light variant for dark footer) -->
         <img
           src="/assets/img/logo-light.svg"
-          alt="Loan Streamline Pro — Streamline today. Close tomorrow."
-          width="240" height="50"
-          class="hidden sm:block h-11 w-auto">
+          alt="Loan Streamline Pro"
+          width="240" height="45"
+          class="block h-10 sm:h-11 w-auto">
       </a>
       <p class="text-sm leading-6 text-slate-400">A simpler path to comparing personal loan and consolidation loan options from trusted lending partners.</p>
     </div>
