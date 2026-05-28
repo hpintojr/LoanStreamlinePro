@@ -52,6 +52,16 @@ define('CALL_CONSENT_TEXT',
 define('AI_DISCLOSURE_TEXT',
     'Some communications may be generated using automated technology or AI-assisted systems.'
 );
+// A2P 10DLC / SMS carrier requirement. This exact carve-out must appear on the
+// Privacy Policy and SMS Terms URLs submitted for campaign registration.
+define('MOBILE_PRIVACY_CLAUSE',
+    'Mobile information — including your mobile phone number and SMS/text-messaging ' .
+    'opt-in consent — will not be shared, sold, rented, or transferred to any third ' .
+    'parties or affiliates for their own marketing or promotional purposes. SMS opt-in ' .
+    'consent is never shared with third parties for any purpose. Mobile information may ' .
+    'be disclosed only to the service providers (such as our SMS gateway) that help us ' .
+    'operate the messaging program, and only as needed to deliver those messages.'
+);
 define('FOOTER_DISCLAIMER',
     'Loan Streamline Pro is not a lender. We help match consumers with lending and financial ' .
     'service partners. Loan approvals and final terms are subject to lender eligibility, ' .

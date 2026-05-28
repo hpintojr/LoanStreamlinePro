@@ -70,6 +70,7 @@
         make credit decisions. Loan Streamline Pro may pass personal information to our Lending
         Partners and approved third parties in accordance with our <a href="/terms-and-conditions" class="text-slate-200 underline hover:text-white">Terms of Service</a>
         and <a href="/privacy-policy" class="text-slate-200 underline hover:text-white">Privacy Policy</a>.
+        <strong class="text-slate-200"><?= e(MOBILE_PRIVACY_CLAUSE) ?></strong>
         You can learn more about how our Lending Partners assess your eligibility for a financial
         product in Section 1 of the Terms of Service. Offers will vary depending on the Lending
         Partner, their criteria, your creditworthiness and your state's laws. There is no

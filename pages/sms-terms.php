@@ -52,7 +52,7 @@
 
     <section class="space-y-3">
       <h2 class="text-2xl font-bold text-slate-900">Privacy</h2>
-      <p>Your mobile information will not be shared with third parties or affiliates for marketing or promotional purposes. Information may be shared with sub-contractors and service providers (such as our SMS gateway and lead-routing platforms) only as needed to operate the Program. See our <a href="/privacy-policy" class="text-brand-700 underline">Privacy Policy</a> for full details.</p>
+      <p><?= e(MOBILE_PRIVACY_CLAUSE) ?> See our <a href="/privacy-policy" class="text-brand-700 underline">Privacy Policy</a> for full details.</p>
     </section>
 
     <section class="space-y-3">

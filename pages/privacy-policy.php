@@ -20,6 +20,7 @@
         <li>We collect the information you submit and limited information generated automatically when you use the Site.</li>
         <li>We share your information with our Lending Partners and approved service providers so they can present loan and financial product offers.</li>
         <li>We do not sell personal information to third parties for cross-context behavioral advertising.</li>
+        <li><strong>We never share or sell your mobile phone number or SMS opt-in consent with third parties or affiliates for marketing purposes</strong> (see Section 5.3).</li>
         <li>You have rights to access, correct, delete, and limit certain uses of your personal information (see Section 9).</li>
       </ul>
     </section>
@@ -76,6 +77,7 @@
         <li><strong>Corporate transactions.</strong> In connection with a merger, acquisition, financing, reorganization, bankruptcy, or sale of assets.</li>
       </ul>
       <p>We do not "sell" personal information in exchange for monetary consideration for unrelated marketing purposes. Sharing your information with Lending Partners so they can present offers to you may be considered "sharing" or "sale" under some state privacy laws - see Section 9 and our <a href="/california-privacy" class="text-brand-700 underline">California Privacy Notice</a>.</p>
+      <p class="bg-slate-50 border-l-4 border-brand-600 p-4 font-semibold text-slate-900"><?= e(MOBILE_PRIVACY_CLAUSE) ?> The categories of sharing described above do not apply to mobile phone numbers or SMS opt-in consent.</p>
     </section>
 
     <section class="space-y-3">
@@ -88,6 +90,7 @@
 
       <h3 class="font-semibold text-slate-900 pt-2">5.3 SMS / text messages</h3>
       <p>If you check the SMS consent box on our form, you authorize us to send you marketing and informational text messages, including messages sent using an autodialer or AI/conversational technology. Consent is not a condition of any purchase or service. Message frequency varies. Msg &amp; data rates may apply. Reply <strong>HELP</strong> for help, <strong>STOP</strong> to cancel. See our <a href="/sms-terms" class="text-brand-700 underline">SMS Terms</a> for additional details.</p>
+      <p class="font-semibold text-slate-900"><?= e(MOBILE_PRIVACY_CLAUSE) ?></p>
 
       <h3 class="font-semibold text-slate-900 pt-2">5.4 AI-assisted communications</h3>
       <p><?= e(AI_DISCLOSURE_TEXT) ?> A real specialist remains responsible for any binding offer, advice, or program enrollment.</p>

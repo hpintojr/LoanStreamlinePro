@@ -33,6 +33,7 @@
     <section class="space-y-3">
       <h2 class="text-2xl font-bold text-slate-900">Categories of personal information we share</h2>
       <p>We share identifiers, customer records, commercial information, and inferences with our lending and credit-relief partners and our service providers (hosting, analytics, email/SMS, lead routing). We do not "sell" personal information in the traditional sense, but sharing your information with lending partners so they can present offers may be considered "sharing" under the CPRA.</p>
+      <p class="font-semibold text-slate-900"><?= e(MOBILE_PRIVACY_CLAUSE) ?></p>
     </section>
 
     <section class="space-y-3">
@@ -50,6 +51,7 @@
     <section class="space-y-3" id="do-not-sell">
       <h2 class="text-2xl font-bold text-slate-900">Do Not Sell or Share My Personal Information</h2>
       <p>To exercise your right to opt out of the sale or sharing of your personal information, email <a href="mailto:<?= e(BUSINESS_EMAIL) ?>?subject=Do%20Not%20Sell%20or%20Share%20-%20California" class="text-brand-700 underline"><?= e(BUSINESS_EMAIL) ?></a> with the subject line "Do Not Sell or Share — California" and include the email address and phone number you've used with us. We honor verified Global Privacy Control (GPC) browser signals as opt-out requests.</p>
+      <p class="bg-slate-50 border-l-4 border-brand-600 p-4 font-semibold text-slate-900"><?= e(MOBILE_PRIVACY_CLAUSE) ?></p>
     </section>
 
     <section class="space-y-3">
