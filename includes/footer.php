@@ -10,15 +10,13 @@
       <a href="/" class="inline-block mb-4" aria-label="Loan Streamline Pro — home">
         <!-- Mobile: mark only -->
         <img
-          src="/assets/img/logo-mark.png"
-          onerror="this.onerror=null;this.src='/assets/img/logo-mark.svg';"
+          src="/assets/img/logo-mark.svg"
           alt="Loan Streamline Pro"
           width="48" height="48"
           class="block sm:hidden w-12 h-12">
         <!-- Tablet + desktop: full horizontal lockup (light variant for dark footer) -->
         <img
-          src="/assets/img/logo-light.png"
-          onerror="this.onerror=null;this.src='/assets/img/logo-light.svg';"
+          src="/assets/img/logo-light.svg"
           alt="Loan Streamline Pro — Streamline today. Close tomorrow."
           width="240" height="50"
           class="hidden sm:block h-11 w-auto">
