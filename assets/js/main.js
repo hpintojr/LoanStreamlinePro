@@ -113,10 +113,13 @@
     let res, raw = '', data = {};
     try {
       const fd = new FormData(form);
-      res = await fetch(form.action, {
-        method:  'POST',
-        body:    fd,
-        headers: { 'Accept': 'application/json', 'X-Requested-With': 'XMLHttpRequest' },
+      // IMPORTANT: do NOT set Accept or X-Requested-With headers — they trigger
+      // IONOS ModSecurity's "API call detection" rule and cause HTTP 406.
+      // We append ?ajax=1 to the URL so the server still knows to return JSON.
+      const actionUrl = form.action + (form.action.indexOf('?') === -1 ? '?ajax=1' : '&ajax=1');
+      res = await fetch(actionUrl, {
+        method: 'POST',
+        body:   fd,
         credentials: 'same-origin',
       });
       raw  = await res.text();

@@ -20,7 +20,10 @@ require_once __DIR__ . '/../includes/helpers.php';
 
 header('X-Content-Type-Options: nosniff');
 
+// Detect AJAX/JSON intent. Primary signal is ?ajax=1 (set by main.js) because
+// the previous Accept-header signal triggered IONOS ModSecurity → HTTP 406.
 $wantsJson = (
+    !empty($_GET['ajax']) ||
     (isset($_SERVER['HTTP_ACCEPT']) && stripos($_SERVER['HTTP_ACCEPT'], 'application/json') !== false) ||
     (isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) === 'xmlhttprequest') ||
     (isset($_SERVER['CONTENT_TYPE']) && stripos($_SERVER['CONTENT_TYPE'], 'application/json') !== false)

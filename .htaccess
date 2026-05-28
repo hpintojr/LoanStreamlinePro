@@ -2,12 +2,12 @@
 # Loan Streamline Pro — .htaccess (IONOS Premium CGI/FastCGI, MultiViews-tolerant)
 #
 # Why this is shaped the way it is:
-#   • IONOS runs PHP as CGI/FastCGI under SuEXEC. On that setup the internal
-#     rewrite `^ index.php [L]` sometimes doesn't surface a clean REQUEST_URI
-#     to PHP. Instead we explicitly pass the path as ?_url=... — bulletproof.
-#   • IONOS keeps MultiViews enabled and rejects `Options -MultiViews` in
-#     user-level .htaccess (returns 500). We just work around it.
-#   • No <IfModule>, no Options, no Header directives — keeps IONOS happy.
+#   * IONOS runs PHP as CGI/FastCGI under SuEXEC. We explicitly pass the
+#     requested path as ?_url=... to bulletproof the front controller.
+#   * IONOS keeps MultiViews enabled and rejects `Options -MultiViews` in
+#     user-level .htaccess. We just work around it.
+#   * No Options, no <Location*>, no <IfModule> blocks that wrap directives
+#     IONOS rejects in .htaccess context.
 # =============================================================================
 
 DirectoryIndex index.php
@@ -20,7 +20,7 @@ RewriteCond %{HTTPS} off
 RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-# --- 301 redirect: old /debt-consolidation URL → new /consolidation-loans --
+# --- 301 redirect: old /debt-consolidation URL -> new /consolidation-loans -
 RewriteRule ^debt-consolidation/?$ /consolidation-loans [L,R=301]
 
 # --- Front controller: route every non-asset URL through index.php ----------

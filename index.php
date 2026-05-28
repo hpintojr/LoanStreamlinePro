@@ -11,7 +11,9 @@ $routes = require __DIR__ . '/config/routes.php';
 $path   = current_path();
 
 // --- Special API endpoints ----------------------------------------------
-if ($path === '/api/lead') {
+// Both URLs route to the same handler. /submit is a fallback in case IONOS
+// ModSecurity blocks /api/lead (common on financial-services sites).
+if ($path === '/api/lead' || $path === '/submit' || $path === '/get-rate') {
     require __DIR__ . '/api/lead.php';
     exit;
 }

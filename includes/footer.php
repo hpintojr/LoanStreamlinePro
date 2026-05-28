@@ -138,6 +138,7 @@
 
 </footer>
 
+<script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="6a18b0041ce15bb9e987a7a3" data-source="WEB_USER"></script>
 <script src="/assets/js/main.js" defer></script>
 </body>
 </html>
