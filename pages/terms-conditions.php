@@ -43,7 +43,7 @@
     <section class="space-y-3">
       <h2 class="text-2xl font-bold text-slate-900">5. Communications Consent</h2>
       <p>By providing your email address, you authorize us to send you transactional emails about your inquiry and the Services, and (unless you opt out) marketing emails.</p>
-      <p>If you check the <strong>SMS consent box</strong> on our form, you authorize us to send you informational text messages related to your loan inquiry, application, and account, including messages sent using an autodialer or AI/conversational technology. Consent is not a condition of any purchase or service. Message frequency varies. Msg &amp; data rates may apply. Reply HELP for help, STOP to cancel. See our <a href="/sms-terms" class="text-brand-700 underline">SMS Terms</a>.</p>
+      <p>If you check the <strong>SMS consent box</strong> on our form, you authorize us to send you informational text messages about your loan inquiry, application status, appointment reminders, account updates, document reminders, and customer support at the mobile number provided. Message frequency varies. Message and data rates may apply. Reply HELP for help or STOP to cancel. Consent is not a condition of purchase, service, or loan approval. See our <a href="/sms-terms" class="text-brand-700 underline">SMS Terms</a>.</p>
       <p>If you check the <strong>phone-call consent box</strong> on our form, you authorize us to call you at the number provided, including via automatic telephone dialing systems and artificial or prerecorded voice. Consent is not a condition of any purchase or service.</p>
       <p>You may revoke these consents at any time by following the opt-out instructions in any message or by contacting us.</p>
     </section>

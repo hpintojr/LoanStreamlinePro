@@ -162,7 +162,7 @@ $src = isset($source_page) ? $source_page : '';
         <label class="flex items-start gap-3 p-4 rounded-xl border border-slate-200 bg-white hover:border-brand-200 cursor-pointer transition">
           <input type="checkbox" name="sms_consent" value="1" class="mt-1 rounded border-slate-300 text-brand-600 focus:ring-brand-500">
           <span class="text-xs text-slate-700 leading-relaxed">
-            I agree to receive informational text messages (SMS) related to my loan inquiry, application, and account from <?= e(SITE_NAME) ?> at the phone number provided, including messages sent using an autodialer or AI/conversational technology. Consent is not a condition of any purchase or service. Msg &amp; data rates may apply. Message frequency varies. Reply HELP for help, STOP to cancel. View our <a href="/privacy-policy" class="text-brand-700 underline font-semibold">Privacy Policy</a>.
+            I agree to receive informational text messages from <?= e(SITE_NAME) ?>, a brand of <?= e(OPERATING_ENTITY) ?>, about my loan inquiry, application status, appointment reminders, account updates, document reminders, and customer support at the mobile number provided. Message frequency varies. Message and data rates may apply. Reply HELP for help or STOP to cancel. Consent is not a condition of purchase, service, or loan approval. View our <a href="/privacy-policy" class="text-brand-700 underline font-semibold">Privacy Policy</a> and <a href="/sms-terms" class="text-brand-700 underline font-semibold">SMS Terms</a>.
           </span>
         </label>
 

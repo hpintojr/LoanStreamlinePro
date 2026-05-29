@@ -21,8 +21,8 @@ define('SITE_TAGLINE',       'Straightforward personal loans. Real people.');
 // The legal entity is Advantage First Financial LLC, doing business as
 // "Loan Streamline Pro." Legal documents contract in the name of AFF.
 define('OPERATING_ENTITY',   'Advantage First Financial LLC');
-define('OPERATING_ADDRESS',  '3187 Red Hill Ave Suite 230, Costa Mesa, CA 92626, United States');
-define('OPERATING_ADDR_ONE_LINE', '3187 Red Hill Ave Suite 230, Costa Mesa, CA 92626');
+define('OPERATING_ADDRESS',  '1712 Pioneer Ave Suite 500, Cheyenne, WY 82001, United States');
+define('OPERATING_ADDR_ONE_LINE', '1712 Pioneer Ave Suite 500, Cheyenne, WY 82001');
 
 // --- States we are licensed to lend in ---------------------------------
 define('LICENSED_STATES',    'Texas and Utah');
@@ -33,8 +33,8 @@ define('NMLS_ID',            '2674295');
 define('NMLS_URL',           'https://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/2674295');
 
 // --- Contact -----------------------------------------------------------
-define('BUSINESS_PHONE',     '(800) 555-0100');                // TODO: replace with current published phone
-define('BUSINESS_PHONE_RAW', '+18005550100');
+define('BUSINESS_PHONE',     '(714) 351-7616');
+define('BUSINESS_PHONE_RAW', '+17143517616');
 define('BUSINESS_EMAIL',     'support@loanstreamlinepro.com');
 define('LEAD_NOTIFY_EMAIL',  'leads@loanstreamlinepro.com');
 define('BUSINESS_ADDRESS',   OPERATING_ADDR_ONE_LINE);
@@ -48,11 +48,12 @@ define('FEATURED_RATE_NOTE', 'APR range varies by creditworthiness, loan amount,
 // Both consent boxes are OPTIONAL on the form. The exact text shown is stored
 // with each submitted lead for carrier/regulator audit.
 define('SMS_CONSENT_TEXT',
-    'I agree to receive informational text messages (SMS) related to my loan inquiry, application, ' .
-    'and account from Loan Streamline Pro at the phone number provided, including messages sent ' .
-    'using an autodialer or AI/conversational ' .
-    'technology. Consent is not a condition of any purchase or service. Msg & data rates may apply. ' .
-    'Message frequency varies. Reply HELP for help, STOP to cancel. View our Privacy Policy.'
+    'I agree to receive informational text messages from Loan Streamline Pro, a brand of ' .
+    'Advantage First Financial LLC, about my loan inquiry, application status, appointment ' .
+    'reminders, account updates, document reminders, and customer support at the mobile number ' .
+    'provided. Message frequency varies. Message and data rates may apply. Reply HELP for help ' .
+    'or STOP to cancel. Consent is not a condition of purchase, service, or loan approval. ' .
+    'View our Privacy Policy and SMS Terms.'
 );
 define('CALL_CONSENT_TEXT',
     'I agree to receive informational phone calls related to my loan inquiry, application, and ' .

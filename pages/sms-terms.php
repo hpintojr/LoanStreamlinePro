@@ -17,7 +17,7 @@
     <section class="space-y-3">
       <h2 class="text-2xl font-bold text-slate-900">Consent (opt-in)</h2>
       <p><?= e(SMS_CONSENT_TEXT) ?></p>
-      <p>Consent is not a condition of any purchase or service. You may opt out at any time without penalty.</p>
+      <p>You may opt out at any time without penalty by replying STOP to any message.</p>
     </section>
 
     <section class="space-y-3">
