@@ -11,7 +11,7 @@
 
     <section class="space-y-3">
       <h2 class="text-2xl font-bold text-slate-900">Program description</h2>
-      <p>The <?= e(SITE_NAME) ?> SMS program (the "<strong>Program</strong>") is operated by <?= e(OPERATING_ENTITY) ?>. The Program sends text messages relating to consolidation loans, personal loan options, account updates, appointment reminders, and customer support — only to recipients who have expressly opted in.</p>
+      <p>The <?= e(SITE_NAME) ?> SMS program (the "<strong>Program</strong>") is operated by <?= e(OPERATING_ENTITY) ?> (dba Loan Streamline Pro). The Program sends text messages relating to your loan inquiry or application, account updates, appointment reminders, and customer support — only to recipients who have expressly opted in.</p>
     </section>
 
     <section class="space-y-3">
@@ -22,7 +22,7 @@
 
     <section class="space-y-3">
       <h2 class="text-2xl font-bold text-slate-900">Message frequency</h2>
-      <p>Message frequency varies based on your interactions with us. You may receive transactional messages (e.g., appointment reminders, application updates) and marketing messages (e.g., loan or program offers).</p>
+      <p>Message frequency varies based on your interactions with us. You may receive transactional messages (e.g., appointment reminders, application updates) and marketing messages (e.g., loan offers).</p>
     </section>
 
     <section class="space-y-3">

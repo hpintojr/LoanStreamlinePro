@@ -20,7 +20,7 @@ component('hero', [
         <h2 class="mt-2 text-3xl sm:text-4xl font-bold text-slate-900 leading-tight">What is a consolidation loan?</h2>
       </div>
       <div class="rounded-2xl bg-soft-gradient border border-slate-100 p-7 shadow-soft">
-        <p class="text-slate-700 leading-relaxed">A consolidation loan combines multiple unsecured balancess — typically high-interest credit card balances — into a single new loan. Instead of juggling several minimum payments at varying APRs, you make <strong class="text-slate-900">one fixed monthly payment</strong>, often at a lower combined rate.</p>
+        <p class="text-slate-700 leading-relaxed">A consolidation loan combines multiple unsecured balances — typically high-interest credit card balances — into a single new loan. Instead of juggling several minimum payments at varying APRs, you make <strong class="text-slate-900">one fixed monthly payment</strong>, often at a lower combined rate.</p>
       </div>
     </div>
   </div>
@@ -65,7 +65,7 @@ component('hero', [
           <h2 class="mt-2 text-2xl font-bold">A consolidation loan works for you if:</h2>
           <ul class="mt-5 space-y-3">
             <?php foreach ([
-              'You have several credit card balances or other unsecured balancess.',
+              'You have several credit card balances or other unsecured balances.',
               'You can qualify for a rate lower than what you\'re paying today.',
               'You\'re committed to not running up new balances on the cards you pay off.',
             ] as $item): ?>
@@ -104,12 +104,12 @@ component('hero', [
   </div>
 </section>
 
-<!-- How we match -->
+<!-- How we review -->
 <section class="py-16 bg-soft-gradient">
   <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
     <p class="text-sm font-semibold text-brand-700 uppercase tracking-wide">Our process</p>
-    <h2 class="mt-2 text-3xl sm:text-4xl font-bold text-slate-900">How we match you with options.</h2>
-    <p class="mt-4 text-slate-600 max-w-3xl mx-auto">When you submit your information, we compare programs from our trusted lending and credit-relief partners and present the options that fit your profile. You'll see rates, terms, monthly payments, and fees side-by-side. There is no obligation to accept any offer, and pre-qualification uses only a soft credit pull.</p>
+    <h2 class="mt-2 text-3xl sm:text-4xl font-bold text-slate-900">How we review your application.</h2>
+    <p class="mt-4 text-slate-600 max-w-3xl mx-auto">When you submit your information, we review it against our lending criteria and show you a clear offer that fits your profile. You'll see your rate, term, monthly payment, and fees up front. There is no obligation to accept, and pre-qualification uses only a soft credit inquiry.</p>
     <div class="mt-8 flex flex-wrap justify-center gap-3">
       <a href="/#apply" class="inline-flex items-center px-6 py-3 rounded-full bg-brand-gradient text-white font-bold shadow-soft">Get my rate</a>
       <a href="tel:<?= e(BUSINESS_PHONE_RAW) ?>" class="inline-flex items-center px-6 py-3 rounded-full border border-slate-200 text-slate-800 font-semibold hover:border-brand-300 hover:text-brand-700">Call <?= e(BUSINESS_PHONE) ?></a>

@@ -4,7 +4,7 @@ $benefits = $benefits ?? [
   ['title' => 'No credit-score impact to check','desc' => 'Pre-qualification uses a soft pull — see your estimated rate without any hit to your credit.',                          'icon' => 'M5 13l4 4L19 7'],
   ['title' => 'US-based specialists',           'desc' => 'Talk to a real person who can walk you through your options in plain English — not a chatbot.',                         'icon' => 'M17 20h5v-2a4 4 0 00-3-3.87M9 20H4v-2a4 4 0 013-3.87m6-5a4 4 0 11-8 0 4 4 0 018 0z'],
   ['title' => 'Transparent, no-pressure',       'desc' => 'Every offer comes with the APR, term, fees, and total cost spelled out — no surprises.',                                'icon' => 'M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z'],
-  ['title' => 'Funds in days, not weeks',       'desc' => 'Many consolidation loans fund within 1–5 business days after acceptance — depending on the lender.',                    'icon' => 'M13 10V3L4 14h7v7l9-11h-7z'],
+  ['title' => 'Funds in days, not weeks',       'desc' => 'Many loans fund within 1–5 business days after your loan is approved and your agreement is signed.',                    'icon' => 'M13 10V3L4 14h7v7l9-11h-7z'],
   ['title' => 'Secure & confidential',          'desc' => 'Every submission is transmitted over 256-bit SSL encryption. Your information is treated as private and never sold.',   'icon' => 'M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z'],
 ];
 ?>

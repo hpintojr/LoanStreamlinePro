@@ -21,18 +21,18 @@
         <li><strong>Commercial information:</strong> balance amount, credit range, loan purpose.</li>
         <li><strong>Internet activity:</strong> pages visited, referring URLs, device data.</li>
         <li><strong>Geolocation:</strong> approximate location derived from IP address.</li>
-        <li><strong>Inferences:</strong> profile data used to match you with appropriate loan or program options.</li>
+        <li><strong>Inferences:</strong> profile data used to evaluate your loan application.</li>
       </ul>
     </section>
 
     <section class="space-y-3">
       <h2 class="text-2xl font-bold text-slate-900">How we use this information</h2>
-      <p>We use these categories to respond to your inquiries, present loan and credit-relief options from our partners, fulfill our SMS Program, maintain security, prevent fraud, and meet legal and regulatory requirements (including 10DLC and TCPA recordkeeping).</p>
+      <p>We use these categories to respond to your inquiries, evaluate and service your loan application, fulfill our SMS Program, maintain security, prevent fraud, and meet legal and regulatory requirements (including 10DLC and TCPA recordkeeping).</p>
     </section>
 
     <section class="space-y-3">
       <h2 class="text-2xl font-bold text-slate-900">Categories of personal information we share</h2>
-      <p>We share identifiers, customer records, commercial information, and inferences with our lending and credit-relief partners and our service providers (hosting, analytics, email/SMS, lead routing). We do not "sell" personal information in the traditional sense, but sharing your information with lending partners so they can present offers may be considered "sharing" under the CPRA.</p>
+      <p>We share identifiers, customer records, commercial information, and inferences with consumer reporting agencies and our service providers (hosting, analytics, email/SMS, loan origination and servicing, identity verification, payment processing). We do not "sell" personal information in the traditional sense, but certain disclosures to advertising or analytics partners may be considered "sharing" under the CPRA.</p>
       <p class="font-semibold text-slate-900"><?= e(MOBILE_PRIVACY_CLAUSE) ?></p>
     </section>
 
@@ -66,7 +66,7 @@
 
     <section class="space-y-3">
       <h2 class="text-2xl font-bold text-slate-900">AI and automated decision-making</h2>
-      <p><?= e(AI_DISCLOSURE_TEXT) ?> No automated system makes binding decisions about your loan or program eligibility; a real specialist or lender is always responsible for final outcomes.</p>
+      <p><?= e(AI_DISCLOSURE_TEXT) ?> No automated system makes binding decisions about your loan eligibility; a real specialist is always responsible for final outcomes.</p>
     </section>
 
     <section class="space-y-3">

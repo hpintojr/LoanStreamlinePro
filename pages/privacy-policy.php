@@ -10,15 +10,15 @@
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-slate-700 leading-relaxed space-y-8">
 
     <section class="space-y-3">
-      <p>This Privacy Policy (the <strong>"Policy"</strong>) explains how <?= e(OPERATING_ENTITY) ?> ("<strong>Loan Streamline Pro</strong>," "<strong>we</strong>," "<strong>our</strong>," or "<strong>us</strong>") collects, uses, shares, and protects personal information when you visit <a href="<?= e(SITE_URL) ?>" class="text-brand-700 underline"><?= e(SITE_URL) ?></a> (the "<strong>Site</strong>") or use any of our services (collectively, the "<strong>Services</strong>"). By using the Site or Services, you agree to this Policy. If you do not agree, do not use the Site.</p>
+      <p>This Privacy Policy (the <strong>"Policy"</strong>) explains how <?= e(OPERATING_ENTITY) ?>, doing business as "<strong>Loan Streamline Pro</strong>" ("<strong>we</strong>," "<strong>our</strong>," or "<strong>us</strong>"), collects, uses, shares, and protects personal information when you visit <a href="<?= e(SITE_URL) ?>" class="text-brand-700 underline"><?= e(SITE_URL) ?></a> (the "<strong>Site</strong>") or use any of our services (collectively, the "<strong>Services</strong>"). By using the Site or Services, you agree to this Policy. If you do not agree, do not use the Site.</p>
     </section>
 
     <section class="space-y-3">
       <h2 class="text-2xl font-bold text-slate-900">1. Summary</h2>
       <ul class="list-disc pl-6 space-y-2">
-        <li>We are <strong>not a lender</strong>. We help match consumers with Lending Partners.</li>
+        <li>We are a <strong>licensed lender</strong> (Advantage First Financial LLC, NMLS #<?= e(NMLS_ID) ?>, dba Loan Streamline Pro) serving residents of <?= e(LICENSED_STATES) ?>.</li>
         <li>We collect the information you submit and limited information generated automatically when you use the Site.</li>
-        <li>We share your information with our Lending Partners and approved service providers so they can present loan and financial product offers.</li>
+        <li>We use your information to evaluate and service your loan application, and we share it with service providers that help us operate (such as credit bureaus and identity-verification services).</li>
         <li>We do not sell personal information to third parties for cross-context behavioral advertising.</li>
         <li><strong>We never share or sell your mobile phone number or SMS opt-in consent with third parties or affiliates for marketing purposes</strong> (see Section 5.3).</li>
         <li>You have rights to access, correct, delete, and limit certain uses of your personal information (see Section 9).</li>
@@ -45,7 +45,7 @@
 
       <h3 class="font-semibold text-slate-900 pt-2">2.3 Information from third parties</h3>
       <ul class="list-disc pl-6 space-y-2">
-        <li><strong>Lending Partners and service providers:</strong> outcome of your application, eligibility results, pre-qualification data.</li>
+        <li><strong>Consumer reporting agencies and service providers:</strong> credit and pre-qualification data, eligibility results, and the outcome of your application.</li>
         <li><strong>Advertising and analytics partners:</strong> traffic source information, conversion data, audience segments.</li>
         <li><strong>Identity verification services:</strong> to confirm your identity and help prevent fraud as required by law.</li>
       </ul>
@@ -56,8 +56,8 @@
       <p>We use personal information to:</p>
       <ul class="list-disc pl-6 space-y-2">
         <li>Provide, operate, and improve the Site and Services.</li>
-        <li>Match you with Lending Partners and present loan or financial product offers.</li>
-        <li>Communicate with you by email, phone, and (only with your express opt-in) SMS about your inquiry, our Services, and partner offers.</li>
+        <li>Evaluate, underwrite, fund, and service your loan and loan application.</li>
+        <li>Communicate with you by email, phone, and (only with your express opt-in) SMS about your inquiry, your application, and our Services.</li>
         <li>Verify your identity and prevent fraud, money laundering, and other unlawful activity, including as required by federal law (e.g., the USA PATRIOT Act).</li>
         <li>Comply with applicable laws, court orders, and regulatory requests.</li>
         <li>Conduct analytics, research, and product development.</li>
@@ -69,14 +69,14 @@
       <h2 class="text-2xl font-bold text-slate-900">4. How We Share Personal Information</h2>
       <p>We share personal information with the following categories of recipients:</p>
       <ul class="list-disc pl-6 space-y-2">
-        <li><strong>Lending Partners.</strong> The primary purpose of the Site is to connect you with lenders, financial product providers, and credit-relief providers ("<strong>Lending Partners</strong>"). When you submit a form, we share the information you provided so Lending Partners can determine eligibility and present offers. Each Lending Partner is independently responsible for its use of your information under its own privacy policy.</li>
-        <li><strong>Service providers and processors.</strong> Companies that perform services on our behalf - hosting, analytics, email and SMS delivery, lead routing, identity verification, customer support, and CRM systems - receive information under contractual obligations to keep it confidential and use it only for the services they provide to us.</li>
+        <li><strong>Consumer reporting agencies.</strong> We share and obtain information with credit bureaus and similar agencies to evaluate and service your loan.</li>
+        <li><strong>Service providers and processors.</strong> Companies that perform services on our behalf - hosting, analytics, email and SMS delivery, loan origination and servicing, identity verification, payment processing, customer support, and CRM systems - receive information under contractual obligations to keep it confidential and use it only for the services they provide to us.</li>
         <li><strong>Affiliated third parties.</strong> Companies under common ownership or control, only for purposes consistent with this Policy.</li>
         <li><strong>Advertising and analytics partners.</strong> Providers such as Google Analytics, Meta, and similar platforms may receive aggregated or pseudonymous usage data; some may set cookies on your device. See Section 6.</li>
         <li><strong>Government, regulators, and law enforcement.</strong> Where required by law, subpoena, court order, or to protect rights, property, or safety.</li>
         <li><strong>Corporate transactions.</strong> In connection with a merger, acquisition, financing, reorganization, bankruptcy, or sale of assets.</li>
       </ul>
-      <p>We do not "sell" personal information in exchange for monetary consideration for unrelated marketing purposes. Sharing your information with Lending Partners so they can present offers to you may be considered "sharing" or "sale" under some state privacy laws - see Section 9 and our <a href="/california-privacy" class="text-brand-700 underline">California Privacy Notice</a>.</p>
+      <p>We do not "sell" personal information in exchange for monetary consideration. Certain disclosures to advertising or analytics partners may be considered "sharing" or "sale" under some state privacy laws - see Section 9 and our <a href="/california-privacy" class="text-brand-700 underline">California Privacy Notice</a>.</p>
       <p class="bg-slate-50 border-l-4 border-brand-600 p-4 font-semibold text-slate-900"><?= e(MOBILE_PRIVACY_CLAUSE) ?> The categories of sharing described above do not apply to mobile phone numbers or SMS opt-in consent.</p>
     </section>
 
@@ -93,7 +93,7 @@
       <p class="font-semibold text-slate-900"><?= e(MOBILE_PRIVACY_CLAUSE) ?></p>
 
       <h3 class="font-semibold text-slate-900 pt-2">5.4 AI-assisted communications</h3>
-      <p><?= e(AI_DISCLOSURE_TEXT) ?> A real specialist remains responsible for any binding offer, advice, or program enrollment.</p>
+      <p><?= e(AI_DISCLOSURE_TEXT) ?> A real specialist remains responsible for any binding loan offer or advice.</p>
     </section>
 
     <section class="space-y-3">
@@ -143,8 +143,8 @@
     </section>
 
     <section class="space-y-3">
-      <h2 class="text-2xl font-bold text-slate-900">12. Third-Party Sites &amp; Lending Partner Privacy Practices</h2>
-      <p>The Site may link to third-party websites, including those of Lending Partners. We are not responsible for the privacy practices or content of any third-party site. When you submit information through a Lending Partner's application, that Lending Partner's privacy policy governs how it uses your information.</p>
+      <h2 class="text-2xl font-bold text-slate-900">12. Third-Party Sites</h2>
+      <p>The Site may link to third-party websites, including those of our service providers. We are not responsible for the privacy practices or content of any third-party site. When you interact with a third-party site, that party's own privacy policy governs how it uses your information.</p>
     </section>
 
     <section class="space-y-3">

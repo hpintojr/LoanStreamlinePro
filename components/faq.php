@@ -1,11 +1,11 @@
 <?php
 $faqs = $faqs ?? [
   ['q'=>'Will checking my rate hurt my credit score?', 'a'=>'No. Pre-qualification uses a soft credit pull and will not affect your credit score. Only if you accept an offer and a lender runs a full application will a hard inquiry be made.'],
-  ['q'=>'Is Loan Streamline Pro a lender?', 'a'=>'No. Loan Streamline Pro is not a lender. We help match consumers with consolidation loan options and personal loans from our trusted Lending Partners. Final approval, rates, and terms are determined by the Lending Partner that funds your loan.'],
-  ['q'=>'How quickly can I get my money?', 'a'=>'It depends on the lender and how quickly you can verify your information. Many consolidation loans fund within 1–5 business days after acceptance.'],
+  ['q'=>'Is Loan Streamline Pro a lender?', 'a'=>'Yes. Loan Streamline Pro is a brand of Advantage First Financial LLC (NMLS #2674295), a licensed lender. We originate and fund personal loans directly for residents of Texas and Utah, and we make the credit decision and set your rate and terms.'],
+  ['q'=>'How quickly can I get my money?', 'a'=>'It depends on how quickly you can verify your information. Many personal loans fund within 1–5 business days after your loan is approved and your agreement is signed.'],
   ['q'=>'How do you protect my personal information?', 'a'=>'Every submission is transmitted over 256-bit SSL encryption. We follow industry best practices and applicable privacy laws, including the California Consumer Privacy Act (CCPA / CPRA) for California residents. See our Privacy Policy for details, including how to request access, deletion, or to opt out of sharing.'],
   ['q'=>'What does the SMS opt-in mean?', 'a'=>'The SMS checkbox is optional. If you check it, you give explicit consent to receive text messages from Loan Streamline Pro about your inquiry. Message frequency varies; Msg & data rates may apply. Reply HELP for help, STOP to cancel. Consent is not a condition of any purchase or service. See our SMS Terms.'],
-  ['q'=>'Do you use AI in your communications?', 'a'=>'Yes — some communications may be generated using automated technology or AI-assisted systems. A real specialist remains responsible for any binding offers, advice, or program enrollment.'],
+  ['q'=>'Do you use AI in your communications?', 'a'=>'Yes — some communications may be generated using automated technology or AI-assisted systems. A real specialist remains responsible for any binding loan offers or advice.'],
 ];
 ?>
 <section class="py-16 sm:py-20 bg-white">

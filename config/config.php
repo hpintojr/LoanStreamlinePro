@@ -2,23 +2,32 @@
 /**
  * Loan Streamline Pro — Site Configuration
  *
- * Loan Streamline Pro is positioned as the operating entity (Wyoming).
- * Advantage First Financial LLC is referenced only at the bottom of the site
- * as the NMLS-licensed entity (NMLS ID 2674295).
+ * "Loan Streamline Pro" is a registered brand / assumed name of
+ * Advantage First Financial LLC (NMLS ID 2674295). Advantage First Financial
+ * is the licensed lender and the legal entity behind this site. The company is
+ * licensed to lend in Texas (OCCC Regulated Lender) and Utah (DFI Consumer
+ * Credit Notification); the site is intended for residents of those states.
+ * OPERATING_ENTITY therefore resolves to the legal entity (AFF); SITE_NAME is
+ * the consumer-facing brand.
  */
 
 // --- Brand --------------------------------------------------------------
 define('SITE_NAME',          'Loan Streamline Pro');
 define('SITE_SHORT',         'LSP');
 define('SITE_URL',           'https://loanstreamlinepro.com');
-define('SITE_TAGLINE',       'Simplify your balances. Strengthen your future.');
+define('SITE_TAGLINE',       'Straightforward personal loans. Real people.');
 
-// --- Operating entity (appears throughout the site) --------------------
-define('OPERATING_ENTITY',   'Loan Streamline Pro');
-define('OPERATING_ADDRESS',  '1712 Pioneer Ave Suite 500, Cheyenne, WY 82001, United States');
-define('OPERATING_ADDR_ONE_LINE', '1712 Pioneer Ave Suite 500, Cheyenne, WY 82001');
+// --- Operating / legal entity (appears throughout the site) ------------
+// The legal entity is Advantage First Financial LLC, doing business as
+// "Loan Streamline Pro." Legal documents contract in the name of AFF.
+define('OPERATING_ENTITY',   'Advantage First Financial LLC');
+define('OPERATING_ADDRESS',  '3187 Red Hill Ave Suite 230, Costa Mesa, CA 92626, United States');
+define('OPERATING_ADDR_ONE_LINE', '3187 Red Hill Ave Suite 230, Costa Mesa, CA 92626');
 
-// --- NMLS reference (appears only at the bottom for licensing disclosure)
+// --- States we are licensed to lend in ---------------------------------
+define('LICENSED_STATES',    'Texas and Utah');
+
+// --- NMLS reference (licensed lender) ----------------------------------
 define('NMLS_ENTITY',        'Advantage First Financial LLC');
 define('NMLS_ID',            '2674295');
 define('NMLS_URL',           'https://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/2674295');
@@ -33,7 +42,7 @@ define('BUSINESS_HOURS',     'Mon–Fri 8am–6pm PT');
 
 // --- Featured rate (used in hero) --------------------------------------
 define('FEATURED_RATE_LOW',  '4.99');                          // % APR — starting rate displayed
-define('FEATURED_RATE_NOTE', 'APR range varies by lender and creditworthiness. Lowest rates require excellent credit.');
+define('FEATURED_RATE_NOTE', 'APR range varies by creditworthiness, loan amount, term, and state of residence. Lowest rates require excellent credit. Not all applicants will qualify.');
 
 // --- Compliance: form consent text -------------------------------------
 // Both consent boxes are OPTIONAL on the form. The exact text shown is stored
@@ -63,9 +72,10 @@ define('MOBILE_PRIVACY_CLAUSE',
     'operate the messaging program, and only as needed to deliver those messages.'
 );
 define('FOOTER_DISCLAIMER',
-    'Loan Streamline Pro is not a lender. We help match consumers with lending and financial ' .
-    'service partners. Loan approvals and final terms are subject to lender eligibility, ' .
-    'creditworthiness, and applicable state law.'
+    'Loan Streamline Pro is a brand of Advantage First Financial LLC (NMLS #2674295), a licensed ' .
+    'lender. We currently make loans to residents of Texas and Utah. All loans are subject to ' .
+    'eligibility, creditworthiness, and applicable state law. Not all applicants will qualify, and ' .
+    'rates and terms vary by applicant.'
 );
 
 // --- Database (IONOS MariaDB) -------------------------------------------

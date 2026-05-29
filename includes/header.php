@@ -11,7 +11,7 @@
 <link rel="canonical" href="<?= e(SITE_URL . $PAGE_PATH) ?>">
 
 <!-- SEO keywords (broad — page content does the heavy lifting) -->
-<meta name="keywords" content="consolidation loans, personal loans, balance relief, reduce monthly payments, loan streamline, loan refinancing, financial freedom">
+<meta name="keywords" content="personal loans, consolidation loans, fixed-rate loans, Texas personal loans, Utah personal loans, Advantage First Financial">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
@@ -80,9 +80,18 @@ tailwind.config = {
   "@context": "https://schema.org",
   "@type": "FinancialService",
   "name": "<?= e(SITE_NAME) ?>",
-  "alternateName": "LSLP",
+  "alternateName": "LSP",
+  "legalName": "<?= e(OPERATING_ENTITY) ?>",
   "url": "<?= e(SITE_URL) ?>",
-  "areaServed": { "@type": "Country", "name": "United States" },
+  "areaServed": [
+    { "@type": "State", "name": "Texas" },
+    { "@type": "State", "name": "Utah" }
+  ],
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "NMLS",
+    "value": "<?= e(NMLS_ID) ?>"
+  },
   "telephone": "<?= e(BUSINESS_PHONE_RAW) ?>",
   "email": "<?= e(BUSINESS_EMAIL) ?>"
 }

@@ -3,9 +3,9 @@
  * Hero with side-by-side multi-step form.
  * Vars: $eyebrow, $headline, $sub, $bullets, $rate_badge
  */
-$eyebrow    = $eyebrow    ?? 'Credit & loan solutions';
-$headline   = $headline   ?? 'One simple payment.<br>One clear path forward.';
-$sub        = $sub        ?? 'See how much you could save by consolidating high-interest credit card balances into a single, lower monthly payment - with no impact to your credit score to check rates.';
+$eyebrow    = $eyebrow    ?? 'Personal loans';
+$headline   = $headline   ?? 'A simpler personal loan.<br>One clear path forward.';
+$sub        = $sub        ?? 'A personal loan with a fixed rate and a clear payoff date. Check your rate in under 60 seconds with no impact to your credit score.';
 $bullets    = $bullets    ?? [
     'Check your rate in under 60 seconds',
     'No obligation, no fees to apply',

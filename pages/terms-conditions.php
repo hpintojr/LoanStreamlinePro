@@ -10,34 +10,34 @@
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-slate-700 leading-relaxed space-y-8">
 
     <section class="space-y-3">
-      <p>These Terms of Service (the <strong>"Terms"</strong>) form a binding agreement between you ("you," "your") and <?= e(OPERATING_ENTITY) ?> ("<strong>Loan Streamline Pro</strong>," "we," "our," "us") and govern your access to and use of <a href="<?= e(SITE_URL) ?>" class="text-brand-700 underline"><?= e(SITE_URL) ?></a> (the "<strong>Site</strong>") and our services (the "<strong>Services</strong>"). By accessing or using the Site, you agree to be bound by these Terms. If you do not agree, do not access or use the Site.</p>
+      <p>These Terms of Service (the <strong>"Terms"</strong>) form a binding agreement between you ("you," "your") and <?= e(OPERATING_ENTITY) ?>, doing business as "<strong>Loan Streamline Pro</strong>" ("we," "our," "us"), and govern your access to and use of <a href="<?= e(SITE_URL) ?>" class="text-brand-700 underline"><?= e(SITE_URL) ?></a> (the "<strong>Site</strong>") and our services (the "<strong>Services</strong>"). By accessing or using the Site, you agree to be bound by these Terms. If you do not agree, do not access or use the Site.</p>
     </section>
 
     <section class="space-y-3">
-      <h2 class="text-2xl font-bold text-slate-900">1. How Our Lending Partners Assess Your Eligibility</h2>
-      <p>Loan Streamline Pro is <strong>not a lender</strong>. We operate an online marketplace that connects consumers with third-party lenders, financial product providers, and credit-relief providers (collectively, "<strong>Lending Partners</strong>"). When you submit information through the Site:</p>
+      <h2 class="text-2xl font-bold text-slate-900">1. About Us and How We Assess Your Application</h2>
+      <p>Loan Streamline Pro is a brand of Advantage First Financial LLC (NMLS #<?= e(NMLS_ID) ?>), a <strong>licensed lender</strong>. We originate and fund loans directly for residents of <?= e(LICENSED_STATES) ?>. When you submit information through the Site:</p>
       <ul class="list-disc pl-6 space-y-2">
-        <li>We share your information with Lending Partners and approved service providers so they can evaluate your eligibility for products they offer.</li>
-        <li>Each Lending Partner uses its own underwriting criteria, eligibility factors, and decisioning logic, which we do not control. Eligibility, rates, fees, and terms vary depending on the Lending Partner, your creditworthiness, your state of residence, the product you applied for, and applicable law.</li>
-        <li>Pre-qualification on the Site typically uses a "soft" credit pull that does not affect your credit score. If you choose to proceed with a formal application with a Lending Partner, that Lending Partner may perform a "hard" credit inquiry, which can affect your credit score.</li>
-        <li>There is no guarantee that you will be presented with any offer, or that any offer will match the rates, fees, or terms displayed on the Site.</li>
-        <li>Any offer presented to you is the offer of the Lending Partner - not Loan Streamline Pro. The Lending Partner's terms and conditions govern any product you accept.</li>
+        <li>We use the information you provide, together with information from consumer reporting agencies and identity-verification services, to evaluate your application under our own underwriting criteria.</li>
+        <li>Eligibility, rates, fees, and terms vary depending on your creditworthiness, your state of residence, the loan you applied for, and applicable law. We make loans only to residents of states where we are licensed.</li>
+        <li>Pre-qualification on the Site typically uses a "soft" credit inquiry that does not affect your credit score. If you choose to proceed with a formal application, a "hard" credit inquiry may be made, which can affect your credit score.</li>
+        <li>There is no guarantee that you will be approved, or that any approval will match the rates, fees, or terms displayed on the Site.</li>
+        <li>Submitting information through the Site does not create a loan agreement. Any loan is governed by the loan agreement you sign.</li>
       </ul>
     </section>
 
     <section class="space-y-3">
       <h2 class="text-2xl font-bold text-slate-900">2. Eligibility</h2>
-      <p>You may use the Site only if you are (a) at least 18 years old, (b) a U.S. resident, and (c) legally able to enter into binding contracts. Some products are limited to residents of specific states or to consumers who meet additional eligibility criteria set by Lending Partners.</p>
+      <p>You may use the Site only if you are (a) at least 18 years old, (b) a U.S. resident, and (c) legally able to enter into binding contracts. We make loans only to residents of states where we are licensed (currently <?= e(LICENSED_STATES) ?>), and additional eligibility criteria apply.</p>
     </section>
 
     <section class="space-y-3">
       <h2 class="text-2xl font-bold text-slate-900">3. Information You Provide</h2>
-      <p>You agree that any information you submit through the Site is true, accurate, current, and complete. You authorize us to share that information with our Lending Partners and approved service providers as described in these Terms and our <a href="/privacy-policy" class="text-brand-700 underline">Privacy Policy</a>.</p>
+      <p>You agree that any information you submit through the Site is true, accurate, current, and complete. You authorize us to use and share that information with our service providers as described in these Terms and our <a href="/privacy-policy" class="text-brand-700 underline">Privacy Policy</a>.</p>
     </section>
 
     <section class="space-y-3">
       <h2 class="text-2xl font-bold text-slate-900">4. Identity Verification</h2>
-      <p>To help the government fight identity theft, the funding of terrorism, and money laundering activities, Loan Streamline Pro, our affiliated third parties, and our Lending Partners may verify and record information that identifies you. This may include collecting your name, address, date of birth, Social Security number, and other identifying details, and verifying them against third-party databases.</p>
+      <p>To help the government fight identity theft, the funding of terrorism, and money laundering activities, Advantage First Financial LLC and our service providers may verify and record information that identifies you. This may include collecting your name, address, date of birth, Social Security number, and other identifying details, and verifying them against third-party databases.</p>
     </section>
 
     <section class="space-y-3">
@@ -50,7 +50,7 @@
 
     <section class="space-y-3">
       <h2 class="text-2xl font-bold text-slate-900">6. AI-Assisted Content</h2>
-      <p><?= e(AI_DISCLOSURE_TEXT) ?> A human specialist is responsible for any binding offer, advice, or program enrollment.</p>
+      <p><?= e(AI_DISCLOSURE_TEXT) ?> A human specialist is responsible for any binding loan offer or advice.</p>
     </section>
 
     <section class="space-y-3">
@@ -59,8 +59,8 @@
     </section>
 
     <section class="space-y-3">
-      <h2 class="text-2xl font-bold text-slate-900">8. Advertiser Compensation</h2>
-      <p>The offers that appear on the Site are from Lending Partners from which Loan Streamline Pro receives compensation for its services, tools, and facilities. Loan Streamline Pro does not prioritize offers in exchange for compensation and does not endorse any Lending Partner. We show a wide variety of offers but do not include every Lending Partner or every product available in the marketplace.</p>
+      <h2 class="text-2xl font-bold text-slate-900">8. Loan Costs</h2>
+      <p>The rates, fees, and terms of any loan we offer are disclosed to you in your loan documents before you sign. Some loans include an origination fee that is deducted from the loan proceeds. All rates, fees, and terms are subject to your creditworthiness, your state of residence, and applicable law, and are presented without guarantee until set out in a signed loan agreement.</p>
     </section>
 
     <section class="space-y-3">
@@ -74,8 +74,8 @@
     </section>
 
     <section class="space-y-3">
-      <h2 class="text-2xl font-bold text-slate-900">11. Third-Party Sites &amp; Lending Partner Terms</h2>
-      <p>The Site may link to or surface offers from third-party sites operated by Lending Partners and other third parties. We are not responsible for the content, terms, privacy practices, or products of any third party. If you accept an offer from a Lending Partner, you do so subject to that Lending Partner's terms and conditions, which you should review carefully.</p>
+      <h2 class="text-2xl font-bold text-slate-900">11. Third-Party Sites</h2>
+      <p>The Site may link to third-party sites operated by our service providers or other third parties. We are not responsible for the content, terms, privacy practices, or products of any third party. Your use of any third-party site is subject to that party's own terms and conditions, which you should review carefully.</p>
     </section>
 
     <section class="space-y-3">

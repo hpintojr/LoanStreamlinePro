@@ -16,22 +16,22 @@
     $detailedSteps = [
       [
         'n'   => '01',
-        't'   => 'Tell us about your balances',
-        'd'   => 'Use our 60-second form to share a few details: how much you owe, your goal (lower payments, payoff faster, etc.), and your estimated credit range.',
+        't'   => 'Tell us about you',
+        'd'   => 'Use our 60-second form to share a few details: how much you want to borrow, your goal, and your estimated credit range.',
         'tag' => 'No credit-score impact',
         'icon'=> 'M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z',
       ],
       [
         'n'   => '02',
-        't'   => 'We match you with options',
-        'd'   => 'Our team — sometimes assisted by automated systems — compares programs and loan offers from our trusted partners and presents them in plain English. APR, monthly payment, term length, fees, and total cost are spelled out so you can compare side-by-side.',
+        't'   => 'We review your application',
+        'd'   => 'Our team — sometimes assisted by automated systems — reviews your details against our lending criteria and shows you a clear offer in plain English. APR, monthly payment, term length, fees, and total cost are all spelled out.',
         'tag' => 'AI-assisted, human-reviewed',
         'icon'=> 'M13 10V3L4 14h7v7l9-11h-7z',
       ],
       [
         'n'   => '03',
         't'   => 'You decide what works',
-        'd'   => 'Talk to a real US-based specialist. Ask every question. There is no pressure and no obligation to move forward. If you accept an offer, the lender handles funding directly — many loans fund within 1–5 business days.',
+        'd'   => 'Talk to a real US-based specialist. Ask every question. There is no pressure and no obligation to move forward. If you accept your offer, we fund your loan directly — many loans fund within 1–5 business days.',
         'tag' => 'You\'re in control',
         'icon'=> 'M5 13l4 4L19 7',
       ],

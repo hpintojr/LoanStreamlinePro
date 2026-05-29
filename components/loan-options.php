@@ -39,6 +39,6 @@
 
     </div>
 
-    <p class="mt-6 text-xs text-slate-500">*Funding times vary by lender and depend on verification of information. Not all applicants will qualify. Loan terms and approval are at the discretion of the lender.</p>
+    <p class="mt-6 text-xs text-slate-500">*Funding times depend on verification of your information. Not all applicants will qualify. Loan amounts, rates, terms, and approval depend on your creditworthiness, your state of residence, and applicable law. We currently lend to residents of <?= e(LICENSED_STATES) ?>.</p>
   </div>
 </section>

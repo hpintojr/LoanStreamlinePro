@@ -84,7 +84,7 @@ component('hero', [
         <div class="relative">
           <p class="text-xs font-semibold uppercase tracking-widest text-brand-50/90">Read this first</p>
           <h2 class="mt-2 text-2xl font-bold">Rates, fees, and what to watch for.</h2>
-          <p class="mt-4 text-brand-50/95 leading-relaxed">APRs vary by lender and depend on your credit profile. Many lenders charge an <strong>origination fee</strong> that's deducted from the loan proceeds. Loan Streamline Pro shows you the full APR (which includes most fees) so you can compare offers apples-to-apples.</p>
+          <p class="mt-4 text-brand-50/95 leading-relaxed">APRs depend on your credit profile, loan amount, and term. Some loans include an <strong>origination fee</strong> that's deducted from the loan proceeds. We show you the full APR (which includes most fees) so you can see the real cost before you sign.</p>
           <p class="mt-4 text-sm text-white font-semibold bg-white/15 backdrop-blur rounded-xl px-4 py-3">Always read the loan agreement carefully before signing.</p>
         </div>
       </div>

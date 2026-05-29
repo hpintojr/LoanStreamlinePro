@@ -2,7 +2,7 @@
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
     <p class="text-sm font-semibold text-brand-700 uppercase tracking-wide">About us</p>
     <h1 class="mt-2 text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-[1.1]">A simpler path to financial freedom — built for real life.</h1>
-    <p class="mt-5 text-lg text-slate-600 max-w-3xl">Loan Streamline Pro helps consumers compare consolidation loan programs and personal loan options from our trusted Lending Partners, with full transparency on rates, terms, and fees.</p>
+    <p class="mt-5 text-lg text-slate-600 max-w-3xl">Loan Streamline Pro is the consumer brand of Advantage First Financial LLC (NMLS #<?= e(NMLS_ID) ?>), a licensed lender serving residents of <?= e(LICENSED_STATES) ?>. We make personal loans simple — clear rates, fixed terms, and real people to talk to.</p>
   </div>
 </section>
 
@@ -14,7 +14,7 @@
       <div class="relative max-w-3xl">
         <p class="text-xs font-semibold uppercase tracking-widest text-brand-50/90">Our mission</p>
         <p class="mt-4 text-2xl sm:text-3xl font-bold leading-tight">High-interest credit card balances are one of the most stressful financial burdens facing households today.</p>
-        <p class="mt-4 text-brand-50/95 leading-relaxed">Our mission is to make it easier to find a clear, affordable path forward — whether that's a consolidation loan, a structured payoff program, or a conversation with a real specialist who can answer your questions in plain English.</p>
+        <p class="mt-4 text-brand-50/95 leading-relaxed">Our mission is to make it easier to find a clear, affordable path forward — whether that's a personal loan to consolidate high-interest balances, financing for a major expense, or simply a conversation with a real specialist who can answer your questions in plain English.</p>
       </div>
     </div>
   </div>
@@ -36,17 +36,17 @@
           </span>
           <h3 class="text-lg font-bold text-slate-900">What we are</h3>
         </div>
-        <p class="text-slate-600 leading-relaxed">A consumer-facing marketing platform that connects you with vetted lending partners and licensed specialists. We present options in plain English so you can make an informed decision.</p>
+        <p class="text-slate-600 leading-relaxed">A <strong class="text-slate-800">licensed lender</strong> — Advantage First Financial LLC, doing business as Loan Streamline Pro. We originate and fund personal loans directly for residents of <?= e(LICENSED_STATES) ?>, and present every offer in plain English so you can make an informed decision.</p>
       </div>
 
       <div class="rounded-2xl bg-white p-7 shadow-soft border border-slate-200">
         <div class="flex items-center gap-3 mb-4">
-          <span class="inline-flex w-11 h-11 rounded-xl bg-slate-100 text-slate-600 items-center justify-center">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+          <span class="inline-flex w-11 h-11 rounded-xl bg-brand-100 text-brand-700 items-center justify-center">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
           </span>
-          <h3 class="text-lg font-bold text-slate-900">What we are not</h3>
+          <h3 class="text-lg font-bold text-slate-900">How we keep it transparent</h3>
         </div>
-        <p class="text-slate-600 leading-relaxed">We are <strong class="text-slate-800">not a direct lender</strong>. Loan approvals, interest rates, and final terms are determined by the lender that funds your loan — never by us.</p>
+        <p class="text-slate-600 leading-relaxed">Every loan comes with the APR, term, fees, and total cost spelled out before you sign. We tell you up front whether you qualify, and we never charge you to check your rate.</p>
       </div>
 
     </div>
@@ -67,7 +67,7 @@
         ['t'=>'Transparency first', 'd'=>'Every offer comes with APR, term, fees, and total cost — no surprises hidden in fine print.', 'icon'=>'M15 12a3 3 0 11-6 0 3 3 0 016 0z M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z'],
         ['t'=>'No-pressure process', 'd'=>'Checking your rate uses a soft credit pull and won\'t affect your credit score. You are never obligated to move forward.', 'icon'=>'M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z'],
         ['t'=>'Privacy first', 'd'=>'Your data is yours. We follow applicable state privacy laws and give you control over how your information is used and shared.', 'icon'=>'M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z'],
-        ['t'=>'Real humans, real help', 'd'=>'Some communications may use AI-assisted technology, but a real specialist is always responsible for binding offers and program enrollment.', 'icon'=>'M17 20h5v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75M9 20H4v-2a4 4 0 013-3.87m6-5a4 4 0 11-8 0 4 4 0 018 0z'],
+        ['t'=>'Real humans, real help', 'd'=>'Some communications may use AI-assisted technology, but a real specialist is always responsible for binding loan offers.', 'icon'=>'M17 20h5v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75M9 20H4v-2a4 4 0 013-3.87m6-5a4 4 0 11-8 0 4 4 0 018 0z'],
       ];
       foreach ($reasons as $r): ?>
         <div class="group rounded-2xl border border-slate-100 bg-soft-gradient p-6 hover:shadow-soft hover:-translate-y-0.5 transition">
@@ -110,4 +110,4 @@
 
 <?php
 component('trust-badges');
-component('cta-banner', ['title' => 'Ready to simplify your balances?', 'sub' => 'Get matched with options in 60 seconds — no impact to your credit score.']);
+component('cta-banner', ['title' => 'Ready to see your rate?', 'sub' => 'Check your rate in 60 seconds — no impact to your credit score.']);

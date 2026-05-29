@@ -8,8 +8,8 @@
     <div class="mt-10 grid gap-6 md:grid-cols-3">
       <?php
       $steps = [
-        ['n'=>'01','t'=>'Tell us about your balances','d'=>'Share a few details about your balances and goals. Takes about 60 seconds — and never affects your credit score.'],
-        ['n'=>'02','t'=>'Get matched with options','d'=>'We compare options from our trusted lending partners and present them in plain English: rate, term, monthly payment, total cost.'],
+        ['n'=>'01','t'=>'Tell us about you','d'=>'Share a few details about what you need and your goals. Takes about 60 seconds — and never affects your credit score.'],
+        ['n'=>'02','t'=>'We review your application','d'=>'We check your details against our lending criteria and show you a clear offer in plain English: rate, term, monthly payment, total cost.'],
         ['n'=>'03','t'=>'Choose what works for you','d'=>'Talk to a real US-based specialist, ask questions, and only move forward if it makes sense for your budget.'],
       ];
       foreach ($steps as $s): ?>

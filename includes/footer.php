@@ -15,7 +15,7 @@
           width="240" height="45"
           class="block h-10 sm:h-11 w-auto">
       </a>
-      <p class="text-sm leading-6 text-slate-400">A simpler path to comparing personal loan and consolidation loan options from trusted lending partners.</p>
+      <p class="text-sm leading-6 text-slate-400">Straightforward personal loans with fixed rates and clear terms, made directly by a licensed lender serving <?= e(LICENSED_STATES) ?>.</p>
     </div>
 
     <div>
@@ -52,61 +52,40 @@
     </div>
   </div>
 
-  <!-- ===== Full lender-marketplace disclosure (required) ===== -->
+  <!-- ===== Lender disclosure (required) ===== -->
   <div class="border-t border-slate-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 text-xs text-slate-400 leading-relaxed space-y-4">
 
       <p>
-        <strong class="text-slate-200">Loan Streamline Pro is not a lender</strong> or party to any
-        loan or other transaction and does not issue credit cards, loans, financial products, or
-        make credit decisions. Loan Streamline Pro may pass personal information to our Lending
-        Partners and approved third parties in accordance with our <a href="/terms-and-conditions" class="text-slate-200 underline hover:text-white">Terms of Service</a>
+        <strong class="text-slate-200">Loan Streamline Pro is a brand of Advantage First Financial LLC
+        (NMLS #<?= e(NMLS_ID) ?>), a licensed lender.</strong> Advantage First Financial originates and
+        funds loans directly for residents of <?= e(LICENSED_STATES) ?>, in accordance with our
+        <a href="/terms-and-conditions" class="text-slate-200 underline hover:text-white">Terms of Service</a>
         and <a href="/privacy-policy" class="text-slate-200 underline hover:text-white">Privacy Policy</a>.
         <strong class="text-slate-200"><?= e(MOBILE_PRIVACY_CLAUSE) ?></strong>
-        You can learn more about how our Lending Partners assess your eligibility for a financial
-        product in Section 1 of the Terms of Service. Offers will vary depending on the Lending
-        Partner, their criteria, your creditworthiness and your state's laws. There is no
-        guarantee you will be presented with any offers, or that upon presentation of any offers
-        you will qualify for the rates, fees, or terms shown on this Site.
+        Offers vary depending on your creditworthiness, your state of residence, and applicable law.
+        There is no guarantee you will be approved, or that upon approval you will qualify for the
+        rates, fees, or terms shown on this Site.
       </p>
 
       <p>
-        This Site does not constitute an offer, or acceptance into any particular financial
-        product, or specific offer terms or conditions. Providing your information on this Site
-        does not guarantee that you will be approved for an offer.
+        This Site does not constitute an offer or commitment to lend, or specific offer terms or
+        conditions. Providing your information on this Site does not guarantee that you will be
+        approved for a loan.
       </p>
 
       <p>
-        If you receive an offer from one of Loan Streamline Pro's Lending Partners, it is
-        imperative that you review the Lending Partner's terms and conditions before proceeding
-        with an application for a financial product and please note, that at the point of
-        application with a Lending Partner you may be subject to a hard inquiry on your credit
-        file, which may affect your credit score.
+        Pre-qualification on this Site typically uses a soft credit inquiry that does not affect your
+        credit score. If you choose to proceed with a formal application, a hard credit inquiry may be
+        made, which can affect your credit score. Please review your loan agreement carefully before
+        you sign.
       </p>
 
       <p>
-        In order to help the government fight identity theft, the funding of terrorism and money
-        laundering activities, Loan Streamline Pro, our affiliated third parties, and our Lending
-        Partners may verify and record information that identifies you. Loan Streamline Pro is
-        not an agent, representative or broker of any Lending Partner. We do not endorse or
-        recommend any Lending Partners. We do not charge you for any service or product.
-      </p>
-
-      <p class="pt-2">
-        <strong class="text-slate-200 uppercase tracking-wide text-[11px]">Advertiser Disclosure</strong><br>
-        The offers that appear on this Site are from Lending Partners from which Loan Streamline
-        Pro receives compensation for its services, tools, and facilities. Loan Streamline Pro
-        does not prioritize offers for financial products in exchange for compensation from
-        Lending Partners and does not recommend or endorse any Lending Partners, their offers, or
-        their financial products. Loan Streamline Pro shows a wide variety of offers for
-        different financial products. Loan Streamline Pro does not include all Lending Partners
-        or all types of offers available in the marketplace. The underwriting criteria and
-        decisioning necessary for offer presentment and approval are determined by the Lending
-        Partners (not Loan Streamline Pro), and it is important that you review each Lending
-        Partner's terms and conditions before proceeding with an application for a financial
-        product. You must determine which product works for you and your personal financial
-        situation. All rates, fees, and terms are presented without guarantee and are subject to
-        change pursuant to each lender's discretion.
+        In order to help the government fight identity theft, the funding of terrorism, and money
+        laundering activities, Advantage First Financial LLC and its service providers may verify and
+        record information that identifies you. This may include your name, address, date of birth,
+        Social Security number, and other identifying details.
       </p>
 
       <p>
