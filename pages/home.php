@@ -15,7 +15,6 @@ component('social-proof');
 component('benefits');
 component('how-it-works');
 component('loan-options');
-component('trust-badges');
 component('testimonials');
 component('faq');
 component('cta-banner');
