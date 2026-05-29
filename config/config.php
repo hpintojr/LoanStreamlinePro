@@ -48,14 +48,16 @@ define('FEATURED_RATE_NOTE', 'APR range varies by creditworthiness, loan amount,
 // Both consent boxes are OPTIONAL on the form. The exact text shown is stored
 // with each submitted lead for carrier/regulator audit.
 define('SMS_CONSENT_TEXT',
-    'I agree to receive marketing and informational text messages (SMS) from Loan Streamline Pro ' .
-    'at the phone number provided, including messages sent using an autodialer or AI/conversational ' .
+    'I agree to receive informational text messages (SMS) related to my loan inquiry, application, ' .
+    'and account from Loan Streamline Pro at the phone number provided, including messages sent ' .
+    'using an autodialer or AI/conversational ' .
     'technology. Consent is not a condition of any purchase or service. Msg & data rates may apply. ' .
     'Message frequency varies. Reply HELP for help, STOP to cancel. View our Privacy Policy.'
 );
 define('CALL_CONSENT_TEXT',
-    'I agree to receive marketing and informational phone calls from Loan Streamline Pro at the ' .
-    'phone number provided, including calls placed using an automatic telephone dialing system or ' .
+    'I agree to receive informational phone calls related to my loan inquiry, application, and ' .
+    'account from Loan Streamline Pro at the phone number provided, including calls placed using ' .
+    'an automatic telephone dialing system or ' .
     'an artificial or prerecorded voice. Consent is not a condition of any purchase or service.'
 );
 define('AI_DISCLOSURE_TEXT',

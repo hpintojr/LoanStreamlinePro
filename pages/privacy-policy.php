@@ -89,7 +89,7 @@
       <p>If you check the phone-call consent box on our form, you authorize us to call you at the number provided, including via automatic telephone dialing systems and artificial or prerecorded voice messages. Consent is not a condition of any purchase or service. You may opt out at any time by telling the caller you wish to be removed.</p>
 
       <h3 class="font-semibold text-slate-900 pt-2">5.3 SMS / text messages</h3>
-      <p>If you check the SMS consent box on our form, you authorize us to send you marketing and informational text messages, including messages sent using an autodialer or AI/conversational technology. Consent is not a condition of any purchase or service. Message frequency varies. Msg &amp; data rates may apply. Reply <strong>HELP</strong> for help, <strong>STOP</strong> to cancel. See our <a href="/sms-terms" class="text-brand-700 underline">SMS Terms</a> for additional details.</p>
+      <p>If you check the SMS consent box on our form, you authorize us to send you informational text messages related to your loan inquiry, application, and account, including messages sent using an autodialer or AI/conversational technology. Consent is not a condition of any purchase or service. Message frequency varies. Msg &amp; data rates may apply. Reply <strong>HELP</strong> for help, <strong>STOP</strong> to cancel. See our <a href="/sms-terms" class="text-brand-700 underline">SMS Terms</a> for additional details.</p>
       <p class="font-semibold text-slate-900"><?= e(MOBILE_PRIVACY_CLAUSE) ?></p>
 
       <h3 class="font-semibold text-slate-900 pt-2">5.4 AI-assisted communications</h3>

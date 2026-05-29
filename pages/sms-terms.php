@@ -22,7 +22,7 @@
 
     <section class="space-y-3">
       <h2 class="text-2xl font-bold text-slate-900">Message frequency</h2>
-      <p>Message frequency varies based on your interactions with us. You may receive transactional messages (e.g., appointment reminders, application updates) and marketing messages (e.g., loan offers).</p>
+      <p>Message frequency varies based on your interactions with us. You may receive messages related to your loan inquiry, application, or account (e.g., application updates, appointment reminders, and account notifications).</p>
     </section>
 
     <section class="space-y-3">
