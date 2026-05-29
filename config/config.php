@@ -41,7 +41,7 @@ define('BUSINESS_ADDRESS',   OPERATING_ADDR_ONE_LINE);
 define('BUSINESS_HOURS',     'Mon–Fri 8am–6pm PT');
 
 // --- Featured rate (used in hero) --------------------------------------
-define('FEATURED_RATE_LOW',  '4.99');                          // % APR — starting rate displayed
+define('FEATURED_RATE_LOW',  '5.99');                          // % APR — starting rate displayed
 define('FEATURED_RATE_NOTE', 'APR range varies by creditworthiness, loan amount, term, and state of residence. Lowest rates require excellent credit. Not all applicants will qualify.');
 
 // --- Compliance: form consent text -------------------------------------
